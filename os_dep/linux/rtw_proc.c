@@ -64,7 +64,7 @@ inline struct proc_dir_entry *rtw_proc_create_dir(const char *name, struct proc_
 }
 
 inline struct proc_dir_entry *rtw_proc_create_entry(const char *name, struct proc_dir_entry *parent, 
-	const struct file_operations *fops, void * data)
+	const struct proc_ops *fops, void * data)
 {
 	struct proc_dir_entry *entry;
 
@@ -165,13 +165,13 @@ static ssize_t rtw_drv_proc_write(struct file *file, const char __user *buffer, 
 	return -EROFS;
 }
 
-static const struct file_operations rtw_drv_proc_fops = {
-	.owner = THIS_MODULE,
-	.open = rtw_drv_proc_open,
-	.read = seq_read,
-	.llseek = seq_lseek,
-	.release = single_release,
-	.write = rtw_drv_proc_write,
+static const struct proc_ops rtw_drv_proc_fops = {
+	//.owner = THIS_MODULE,
+	.proc_open = rtw_drv_proc_open,
+	.proc_read = seq_read,
+	.proc_lseek = seq_lseek,
+	.proc_release = single_release,
+	.proc_write = rtw_drv_proc_write,
 };
 
 int rtw_drv_proc_init(void)
@@ -263,7 +263,7 @@ static int proc_get_rf_reg_dump(struct seq_file *m, void *v)
 }
 
 
-int proc_reset_rx_info(struct file *file, const char __user *buffer, size_t count, loff_t *pos, void *data)
+ssize_t proc_reset_rx_info(struct file *file, const char __user *buffer, size_t count, loff_t *pos, void *data)
 {
 	struct net_device *dev = data;
 	_adapter *padapter = (_adapter *)rtw_netdev_priv(dev);
@@ -491,13 +491,13 @@ static ssize_t rtw_adapter_proc_write(struct file *file, const char __user *buff
 	return -EROFS;
 }
 
-static const struct file_operations rtw_adapter_proc_fops = {
-	.owner = THIS_MODULE,
-	.open = rtw_adapter_proc_open,
-	.read = seq_read,
-	.llseek = seq_lseek,
-	.release = single_release,
-	.write = rtw_adapter_proc_write,
+static const struct proc_ops rtw_adapter_proc_fops = {
+	//.owner = THIS_MODULE,
+	.proc_open = rtw_adapter_proc_open,
+	.proc_read = seq_read,
+	.proc_lseek = seq_lseek,
+	.proc_release = single_release,
+	.proc_write = rtw_adapter_proc_write,
 };
 
 int proc_get_dm_ability(struct seq_file *m, void *v)
@@ -678,13 +678,13 @@ static ssize_t rtw_dm_proc_write(struct file *file, const char __user *buffer, s
 	return -EROFS;
 }
 
-static const struct file_operations rtw_dm_proc_fops = {
-	.owner = THIS_MODULE,
-	.open = rtw_dm_proc_open,
-	.read = seq_read,
-	.llseek = seq_lseek,
-	.release = single_release,
-	.write = rtw_dm_proc_write,
+static const struct proc_ops rtw_dm_proc_fops = {
+	//.owner = THIS_MODULE,
+	.proc_open = rtw_dm_proc_open,
+	.proc_read = seq_read,
+	.proc_lseek = seq_lseek,
+	.proc_release = single_release,
+	.proc_write = rtw_dm_proc_write,
 };
 
 struct proc_dir_entry *rtw_dm_proc_init(struct net_device *dev)
