@@ -50,7 +50,7 @@
 
 static void
 BlinkTimerCallback(
-	unsigned long data
+	struct timer_list *t
 	);
 
 static void
@@ -97,7 +97,7 @@ InitLed871x(
 
 	ResetLedStatus(pLed);
 
-	_init_timer(&(pLed->BlinkTimer), padapter->pnetdev, BlinkTimerCallback, pLed);
+	_init_timer(&(pLed->BlinkTimer), padapter->pnetdev, BlinkTimerCallback);
 	_init_workitem(&(pLed->BlinkWorkItem), BlinkWorkItemCallback, pLed);
 }
 
@@ -1283,11 +1283,9 @@ SwLedBlink6(
 //		it just schedules to corresponding BlinkWorkItem.
 //
 static void
-BlinkTimerCallback(
-	unsigned long data
-	)
+BlinkTimerCallback(struct timer_list *t)
 {
-	PLED_871x	 pLed = (PLED_871x)data;
+	PLED_871x	 pLed = from_timer(pLed, t, BlinkTimer);
 	_adapter		*padapter = pLed->padapter;
 
 	//DBG_871X("%s\n", __FUNCTION__);

@@ -290,10 +290,10 @@ exit:
 	return;
 }
 
-void pwr_state_check_handler(void *FunctionContext);
-void pwr_state_check_handler(void *FunctionContext)
+void pwr_state_check_handler(struct timer_list *t)
 {
-	_adapter *padapter = (_adapter *)FunctionContext;
+	struct pwrctrl_priv *pwrctrlpriv = from_timer(pwrctrlpriv, t, pwr_state_check_timer);
+	_adapter *padapter = pwrctrlpriv->adapter;
 	rtw_ps_cmd(padapter);
 }
 #endif
@@ -1078,6 +1078,7 @@ _func_enter_;
 #endif
 
 	_init_pwrlock(&pwrctrlpriv->lock);
+	pwrctrlpriv->adapter = padapter;
 	pwrctrlpriv->rf_pwrstate = rf_on;
 	pwrctrlpriv->ips_enter_cnts=0;
 	pwrctrlpriv->ips_leave_cnts=0;
@@ -1114,7 +1115,7 @@ _func_enter_;
 	pwrctrlpriv->tog = 0x80;
 
 #ifdef PLATFORM_LINUX
-	_init_timer(&(pwrctrlpriv->pwr_state_check_timer), padapter->pnetdev, pwr_state_check_handler, (u8 *)padapter);
+	_init_timer(&(pwrctrlpriv->pwr_state_check_timer), padapter->pnetdev, pwr_state_check_handler);
 #endif
 
 	#ifdef CONFIG_RESUME_IN_WORKQUEUE

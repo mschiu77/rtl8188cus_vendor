@@ -41,7 +41,7 @@
 #include <circ_buf.h>
 
 #ifdef CONFIG_NEW_SIGNAL_STAT_PROCESS
-void rtw_signal_stat_timer_hdl(RTW_TIMER_HDL_ARGS);
+void rtw_signal_stat_timer_hdl(struct timer_list *t);
 #endif //CONFIG_NEW_SIGNAL_STAT_PROCESS
 
 
@@ -134,7 +134,7 @@ _func_enter_;
 
 #ifdef CONFIG_NEW_SIGNAL_STAT_PROCESS
 	#ifdef PLATFORM_LINUX
-	_init_timer(&precvpriv->signal_stat_timer, padapter->pnetdev, RTW_TIMER_HDL_NAME(signal_stat), padapter);
+	_init_timer(&precvpriv->signal_stat_timer, padapter->pnetdev, RTW_TIMER_HDL_NAME(signal_stat));
 	#elif defined(PLATFORM_OS_CE) || defined(PLATFORM_WINDOWS)
 	_init_timer(&precvpriv->signal_stat_timer, padapter->hndis_adapter, RTW_TIMER_HDL_NAME(signal_stat), padapter);
 	#endif
@@ -4344,9 +4344,9 @@ _func_exit_;
 }
 
 #ifdef CONFIG_NEW_SIGNAL_STAT_PROCESS
-void rtw_signal_stat_timer_hdl(RTW_TIMER_HDL_ARGS){
-	_adapter *adapter = (_adapter *)FunctionContext;
-	struct recv_priv *recvpriv = &adapter->recvpriv;
+void rtw_signal_stat_timer_hdl(struct timer_list *t){
+	struct recv_priv *recvpriv = from_timer(recvpriv, t, signal_stat_timer);
+	_adapter *adapter = container_of(recvpriv, _adapter, recvpriv);
 	
 	u32 tmp_s, tmp_q;
 	u8 avg_signal_strength = 0;
@@ -4385,7 +4385,7 @@ void rtw_signal_stat_timer_hdl(RTW_TIMER_HDL_ARGS){
 
 		if(check_fwstate(&adapter->mlmepriv, _FW_UNDER_SURVEY) == _TRUE
 			|| check_fwstate(&adapter->mlmepriv, _FW_LINKED) == _FALSE
-		) { 
+		) {
 			goto set_timer;
 		}
 
