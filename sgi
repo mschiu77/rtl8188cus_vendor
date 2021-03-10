@@ -1,0 +1,1417 @@
+./core/rtw_mlme_ext.c:		if ( pattrib->mcs_rate <= 3 )
+./core/rtw_mlme_ext.c:	pattrib->pktlen = sizeof(struct rtw_ieee80211_hdr_3addr);
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(action), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 4, (unsigned char *) &(p2poui), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(oui_subtype), &(pattrib->pktlen));	
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &pwdinfo->negotiation_dialog_token, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_ie(pframe, _VENDOR_SPECIFIC_IE_, wpsielen, (unsigned char *) wpsie, &pattrib->pktlen );
+./core/rtw_mlme_ext.c:	pframe = rtw_set_ie(pframe, _VENDOR_SPECIFIC_IE_, p2pielen, (unsigned char *) p2pie, &pattrib->pktlen );		
+./core/rtw_mlme_ext.c:	pattrib->pktlen += wfdielen;
+./core/rtw_mlme_ext.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_mlme_ext.c:	pattrib->pktlen = sizeof(struct rtw_ieee80211_hdr_3addr);
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(action), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 4, (unsigned char *) &(p2poui), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(oui_subtype), &(pattrib->pktlen));	
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(pwdinfo->negotiation_dialog_token), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_ie(pframe, _VENDOR_SPECIFIC_IE_, wpsielen, (unsigned char *) wpsie, &pattrib->pktlen );
+./core/rtw_mlme_ext.c:	pframe = rtw_set_ie(pframe, _VENDOR_SPECIFIC_IE_, p2pielen, (unsigned char *) p2pie, &pattrib->pktlen );	
+./core/rtw_mlme_ext.c:	pattrib->pktlen += wfdielen;
+./core/rtw_mlme_ext.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_mlme_ext.c:	pattrib->pktlen = sizeof(struct rtw_ieee80211_hdr_3addr);
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(action), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 4, (unsigned char *) &(p2poui), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(oui_subtype), &(pattrib->pktlen));	
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(pwdinfo->negotiation_dialog_token), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_ie(pframe, _VENDOR_SPECIFIC_IE_, p2pielen, (unsigned char *) p2pie, &pattrib->pktlen );
+./core/rtw_mlme_ext.c:	pattrib->pktlen += wfdielen;
+./core/rtw_mlme_ext.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_mlme_ext.c:	pattrib->pktlen = sizeof(struct rtw_ieee80211_hdr_3addr);
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(action), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 4, (unsigned char *) &(p2poui), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(oui_subtype), &(pattrib->pktlen));	
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(dialogToken), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_ie(pframe, _VENDOR_SPECIFIC_IE_, p2pielen, (unsigned char *) p2pie, &pattrib->pktlen );	
+./core/rtw_mlme_ext.c:	pattrib->pktlen += wfdielen;
+./core/rtw_mlme_ext.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_mlme_ext.c:	pattrib->pktlen = sizeof(struct rtw_ieee80211_hdr_3addr);
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(action), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 4, (unsigned char *) &(p2poui), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(oui_subtype), &(pattrib->pktlen));	
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(dialogToken), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_ie(pframe, _VENDOR_SPECIFIC_IE_, p2pielen, (unsigned char *) p2pie, &pattrib->pktlen );	
+./core/rtw_mlme_ext.c:	pattrib->pktlen += wfdielen;
+./core/rtw_mlme_ext.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_mlme_ext.c:	pattrib->pktlen = sizeof(struct rtw_ieee80211_hdr_3addr);
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(action), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 4, (unsigned char *) &(p2poui), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(oui_subtype), &(pattrib->pktlen));	
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(dialogToken), &(pattrib->pktlen));		
+./core/rtw_mlme_ext.c:	pattrib->pktlen += p2pielen;
+./core/rtw_mlme_ext.c:	pframe = rtw_set_ie(pframe, _VENDOR_SPECIFIC_IE_, wpsielen, (unsigned char *) wpsie, &pattrib->pktlen );
+./core/rtw_mlme_ext.c:	pattrib->pktlen += wfdielen;
+./core/rtw_mlme_ext.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_mlme_ext.c:	pattrib->hdrlen = sizeof(struct rtw_ieee80211_hdr_3addr);
+./core/rtw_mlme_ext.c:	pattrib->pktlen = pattrib->hdrlen;
+./core/rtw_mlme_ext.c:	pframe += pattrib->hdrlen;
+./core/rtw_mlme_ext.c:	pattrib->pktlen += 8;
+./core/rtw_mlme_ext.c:	pattrib->pktlen += 2;
+./core/rtw_mlme_ext.c:	pattrib->pktlen += 2;
+./core/rtw_mlme_ext.c:	pframe = rtw_set_ie(pframe, _SSID_IE_, 7, pwdinfo->p2p_wildcard_ssid, &pattrib->pktlen);
+./core/rtw_mlme_ext.c:	pframe = rtw_set_ie(pframe, _SUPPORTEDRATES_IE_, 8, pwdinfo->support_rate, &pattrib->pktlen);
+./core/rtw_mlme_ext.c:	pframe = rtw_set_ie(pframe, _DSSET_IE_, 1, (unsigned char *)&pwdinfo->listen_channel, &pattrib->pktlen);
+./core/rtw_mlme_ext.c:			pattrib->pktlen += pmlmepriv->wps_probe_resp_ie_len;
+./core/rtw_mlme_ext.c:			pattrib->pktlen += pmlmepriv->p2p_probe_resp_ie_len;
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _VENDOR_SPECIFIC_IE_, wpsielen, (unsigned char *) wpsie, &pattrib->pktlen );
+./core/rtw_mlme_ext.c:		pattrib->pktlen += p2pielen;
+./core/rtw_mlme_ext.c:		pattrib->pktlen += wfdielen;
+./core/rtw_mlme_ext.c:		pattrib->pktlen += pmlmepriv->wfd_probe_resp_ie_len;
+./core/rtw_mlme_ext.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_mlme_ext.c:	pattrib->pktlen = sizeof (struct rtw_ieee80211_hdr_3addr);
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _SSID_IE_, pwdinfo->tx_prov_disc_info.ssid.SsidLength, pwdinfo->tx_prov_disc_info.ssid.Ssid, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _SSID_IE_, P2P_WILDCARD_SSID_LEN, pwdinfo->p2p_wildcard_ssid, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_ie(pframe, _SUPPORTEDRATES_IE_, 8, pwdinfo->support_rate, &pattrib->pktlen);
+./core/rtw_mlme_ext.c:			pattrib->pktlen += pmlmepriv->wps_probe_req_ie_len;
+./core/rtw_mlme_ext.c:			pattrib->pktlen += pmlmepriv->p2p_probe_req_ie_len;
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _VENDOR_SPECIFIC_IE_, wpsielen, (unsigned char *) wpsie, &pattrib->pktlen );
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _VENDOR_SPECIFIC_IE_, p2pielen, (unsigned char *) p2pie, &pattrib->pktlen );
+./core/rtw_mlme_ext.c:			pattrib->pktlen += pmlmepriv->wps_probe_req_ie_len;
+./core/rtw_mlme_ext.c:		pattrib->pktlen += wfdielen;
+./core/rtw_mlme_ext.c:		pattrib->pktlen += pmlmepriv->wfd_probe_req_ie_len;
+./core/rtw_mlme_ext.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_mlme_ext.c:	RT_TRACE(_module_rtl871x_mlme_c_,_drv_info_,("issuing probe_req, tx_len=%d\n", pattrib->last_txcmdsz));
+./core/rtw_mlme_ext.c:		printk("pattrib->pktlen = %d =>", pattrib->pkt_len);
+./core/rtw_mlme_ext.c:		for(pp=0;pp< pattrib->pkt_len; pp++)
+./core/rtw_mlme_ext.c:	pattrib->hdrlen = 24;
+./core/rtw_mlme_ext.c:	pattrib->nr_frags = 1;
+./core/rtw_mlme_ext.c:	pattrib->priority = 7;
+./core/rtw_mlme_ext.c:	pattrib->mac_id = 0;
+./core/rtw_mlme_ext.c:	pattrib->qsel = 0x6;
+./core/rtw_mlme_ext.c:	pattrib->qsel = 0x12;
+./core/rtw_mlme_ext.c:	pattrib->pktlen = 0;
+./core/rtw_mlme_ext.c:		pattrib->raid = 6;//b mode
+./core/rtw_mlme_ext.c:		pattrib->raid = 5;//a/g mode
+./core/rtw_mlme_ext.c:	pattrib->encrypt = _NO_PRIVACY_;
+./core/rtw_mlme_ext.c:	pattrib->bswenc = _FALSE;	
+./core/rtw_mlme_ext.c:	pattrib->qos_en = _FALSE;
+./core/rtw_mlme_ext.c:	pattrib->ht_en = _FALSE;
+./core/rtw_mlme_ext.c:	pattrib->bwmode = HT_CHANNEL_WIDTH_20;
+./core/rtw_mlme_ext.c:	pattrib->ch_offset = HAL_PRIME_CHNL_OFFSET_DONT_CARE;
+./core/rtw_mlme_ext.c:	pattrib->sgi = _FALSE;
+./core/rtw_mlme_ext.c:	pattrib->seqnum = pmlmeext->mgnt_seq;
+./core/rtw_mlme_ext.c:	pattrib->retry_ctrl = _TRUE;
+./core/rtw_mlme_ext.c:	pattrib->qsel = 0x10;
+./core/rtw_mlme_ext.c:	pattrib->pktlen = sizeof (struct rtw_ieee80211_hdr_3addr);
+./core/rtw_mlme_ext.c:					pattrib->pktlen += wps_offset;
+./core/rtw_mlme_ext.c:					pattrib->pktlen += pmlmepriv->wps_beacon_ie_len;
+./core/rtw_mlme_ext.c:					pattrib->pktlen += remainder_ielen;
+./core/rtw_mlme_ext.c:					pattrib->pktlen += cur_network->IELength;
+./core/rtw_mlme_ext.c:				pattrib->pktlen += (wps_offset + wpsielen);
+./core/rtw_mlme_ext.c:				pattrib->pktlen += insert_len;
+./core/rtw_mlme_ext.c:				pattrib->pktlen += remainder_ielen;
+./core/rtw_mlme_ext.c:			pattrib->pktlen += (cur_network->IELength+len_diff);
+./core/rtw_mlme_ext.c:				pattrib->pktlen-sizeof (struct rtw_ieee80211_hdr_3addr)-_BEACON_IE_OFFSET_, NULL, &wps_ielen);
+./core/rtw_mlme_ext.c:			pattrib->pktlen += len;
+./core/rtw_mlme_ext.c:			pattrib->pktlen += len;
+./core/rtw_mlme_ext.c:	pattrib->pktlen += 8;
+./core/rtw_mlme_ext.c:	pattrib->pktlen += 2;
+./core/rtw_mlme_ext.c:	pattrib->pktlen += 2;
+./core/rtw_mlme_ext.c:	pframe = rtw_set_ie(pframe, _SSID_IE_, cur_network->Ssid.SsidLength, cur_network->Ssid.Ssid, &pattrib->pktlen);
+./core/rtw_mlme_ext.c:	pframe = rtw_set_ie(pframe, _SUPPORTEDRATES_IE_, ((rate_len > 8)? 8: rate_len), cur_network->SupportedRates, &pattrib->pktlen);
+./core/rtw_mlme_ext.c:	pframe = rtw_set_ie(pframe, _DSSET_IE_, 1, (unsigned char *)&(cur_network->Configuration.DSConfig), &pattrib->pktlen);
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _IBSS_PARA_IE_, 2, (unsigned char *)(&ATIMWindow), &pattrib->pktlen);
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _ERPINFO_IE_, 1, &erpinfo, &pattrib->pktlen);
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _EXT_SUPPORTEDRATES_IE_, (rate_len - 8), (cur_network->SupportedRates + 8), &pattrib->pktlen);
+./core/rtw_mlme_ext.c:	if ((pattrib->pktlen + TXDESC_SIZE) > 512)
+./core/rtw_mlme_ext.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_mlme_ext.c:	//DBG_871X("issue bcn_sz=%d\n", pattrib->last_txcmdsz);
+./core/rtw_mlme_ext.c:	pattrib->hdrlen = sizeof(struct rtw_ieee80211_hdr_3addr);
+./core/rtw_mlme_ext.c:	pattrib->pktlen = pattrib->hdrlen;
+./core/rtw_mlme_ext.c:	pframe += pattrib->hdrlen;
+./core/rtw_mlme_ext.c:			pattrib->pktlen += wps_offset;		
+./core/rtw_mlme_ext.c:				pattrib->pktlen += wps_ielen+2;	
+./core/rtw_mlme_ext.c:				pattrib->pktlen += remainder_ielen;	
+./core/rtw_mlme_ext.c:			pattrib->pktlen += cur_network->IELength;
+./core/rtw_mlme_ext.c:				pattrib->pktlen += ssid_ielen_diff;
+./core/rtw_mlme_ext.c:		pattrib->pktlen += 8;
+./core/rtw_mlme_ext.c:		pattrib->pktlen += 2;
+./core/rtw_mlme_ext.c:		pattrib->pktlen += 2;
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _SSID_IE_, cur_network->Ssid.SsidLength, cur_network->Ssid.Ssid, &pattrib->pktlen);
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _SUPPORTEDRATES_IE_, ((rate_len > 8)? 8: rate_len), cur_network->SupportedRates, &pattrib->pktlen);
+./core/rtw_mlme_ext.c:		pframe =rtw_set_ie(pframe, _DSSET_IE_, 1, (unsigned char *)&(cur_network->Configuration.DSConfig), &pattrib->pktlen);
+./core/rtw_mlme_ext.c:			pframe = rtw_set_ie(pframe, _IBSS_PARA_IE_, 2, (unsigned char *)(&ATIMWindow), &pattrib->pktlen);
+./core/rtw_mlme_ext.c:			pframe = rtw_set_ie(pframe, _ERPINFO_IE_, 1, &erpinfo, &pattrib->pktlen);
+./core/rtw_mlme_ext.c:			pframe = rtw_set_ie(pframe, _EXT_SUPPORTEDRATES_IE_, (rate_len - 8), (cur_network->SupportedRates + 8), &pattrib->pktlen);
+./core/rtw_mlme_ext.c:		pattrib->pktlen += len;
+./core/rtw_mlme_ext.c:		pattrib->pktlen += len;
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _VENDOR_SPECIFIC_IE_, sizeof(RC_INFO), RC_INFO, &pattrib->pktlen);
+./core/rtw_mlme_ext.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_mlme_ext.c:	pattrib->pktlen = sizeof (struct rtw_ieee80211_hdr_3addr);
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _SSID_IE_, pssid->SsidLength, pssid->Ssid, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _SSID_IE_, 0, NULL, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _SUPPORTEDRATES_IE_ , 8, bssrate, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _EXT_SUPPORTEDRATES_IE_ , (bssrate_len - 8), (bssrate + 8), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _SUPPORTEDRATES_IE_ , bssrate_len , bssrate, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _DSSET_IE_, 1, &ch, &pattrib->pktlen);
+./core/rtw_mlme_ext.c:			pattrib->pktlen += pmlmepriv->wps_probe_req_ie_len;
+./core/rtw_mlme_ext.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_mlme_ext.c:	RT_TRACE(_module_rtl871x_mlme_c_,_drv_notice_,("issuing probe_req, tx_len=%d\n", pattrib->last_txcmdsz));
+./core/rtw_mlme_ext.c:	pattrib->pktlen = sizeof(struct rtw_ieee80211_hdr_3addr);
+./core/rtw_mlme_ext.c:		pframe = rtw_set_fixed_ie(pframe, _AUTH_ALGM_NUM_, (unsigned char *)&val16, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:		pframe = rtw_set_fixed_ie(pframe, _AUTH_SEQ_NUM_, (unsigned char *)&val16, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:		pframe = rtw_set_fixed_ie(pframe, _STATUS_CODE_, (unsigned char *)&val16, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:			pframe = rtw_set_ie(pframe, _CHLGETXT_IE_, 128, psta->chg_txt, &(pattrib->pktlen));			
+./core/rtw_mlme_ext.c:			pframe = rtw_set_fixed_ie(pframe, 4, (unsigned char *)&val32, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:			pattrib->iv_len = 4;
+./core/rtw_mlme_ext.c:		pframe = rtw_set_fixed_ie(pframe, _AUTH_ALGM_NUM_, (unsigned char *)&val16, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:		pframe = rtw_set_fixed_ie(pframe, _AUTH_SEQ_NUM_, (unsigned char *)&val16, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:		pframe = rtw_set_fixed_ie(pframe, _STATUS_CODE_, (unsigned char *)&val16, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:			pframe = rtw_set_ie(pframe, _CHLGETXT_IE_, 128, pmlmeinfo->chg_txt, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:			pattrib->hdrlen = sizeof(struct rtw_ieee80211_hdr_3addr);			
+./core/rtw_mlme_ext.c:			pattrib->encrypt = _WEP40_;
+./core/rtw_mlme_ext.c:			pattrib->icv_len = 4;
+./core/rtw_mlme_ext.c:			pattrib->pktlen += pattrib->icv_len;			
+./core/rtw_mlme_ext.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_mlme_ext.c:	pattrib->hdrlen = sizeof(struct rtw_ieee80211_hdr_3addr);
+./core/rtw_mlme_ext.c:	pattrib->pktlen += pattrib->hdrlen;
+./core/rtw_mlme_ext.c:	pframe += pattrib->hdrlen;
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, _CAPABILITY_ , (unsigned char *)&val, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe , _STATUS_CODE_ , (unsigned char *)&status, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, _ASOC_ID_ , (unsigned char *)&val, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _SUPPORTEDRATES_IE_, pstat->bssratelen, pstat->bssrateset, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _SUPPORTEDRATES_IE_, 8, pstat->bssrateset, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _EXT_SUPPORTEDRATES_IE_, (pstat->bssratelen-8), pstat->bssrateset+8, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:			pattrib->pktlen +=(ie_len+2);
+./core/rtw_mlme_ext.c:			pattrib->pktlen +=(ie_len+2);
+./core/rtw_mlme_ext.c:				pattrib->pktlen +=(ie_len+2);
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _VENDOR_SPECIFIC_IE_, 6 , REALTEK_96B_IE, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:		pattrib->pktlen += pmlmepriv->wps_assoc_resp_ie_len;
+./core/rtw_mlme_ext.c:			pattrib->pktlen += len;
+./core/rtw_mlme_ext.c:		pattrib->pktlen += wfdielen;
+./core/rtw_mlme_ext.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_mlme_ext.c:	pattrib->pktlen = sizeof(struct rtw_ieee80211_hdr_3addr);
+./core/rtw_mlme_ext.c:	pattrib->pktlen += 2;
+./core/rtw_mlme_ext.c:	pattrib->pktlen += 2;
+./core/rtw_mlme_ext.c:	pframe = rtw_set_ie(pframe, _SSID_IE_,  pmlmeinfo->network.Ssid.SsidLength, pmlmeinfo->network.Ssid.Ssid, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _SUPPORTEDRATES_IE_ , 8, bssrate, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _EXT_SUPPORTEDRATES_IE_ , (bssrate_len - 8), (bssrate + 8), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _SUPPORTEDRATES_IE_ , bssrate_len , bssrate, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _POW_CAP_IE_, 2, pow_cap_ele, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _SUPPORTED_CH_IE_, idx_5g, sup_ch, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _RSN_IE_2_, ie_len, (p + 2), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:			pframe = rtw_set_ie(pframe, _HT_CAPABILITY_IE_, ie_len , (u8 *)(&(pmlmeinfo->HT_caps)), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:					pframe = rtw_set_ie(pframe, _VENDOR_SPECIFIC_IE_, vs_ie_length, pIE->data, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, _VENDOR_SPECIFIC_IE_, 6 , REALTEK_96B_IE, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:			pattrib->pktlen += pmlmepriv->p2p_assoc_req_ie_len;
+./core/rtw_mlme_ext.c:			pframe = rtw_set_ie(pframe, _VENDOR_SPECIFIC_IE_, p2pielen, (unsigned char *) p2pie, &pattrib->pktlen );
+./core/rtw_mlme_ext.c:			//pattrib->pktlen += wfdielen;
+./core/rtw_mlme_ext.c:		pattrib->pktlen += wfdielen;
+./core/rtw_mlme_ext.c:		pattrib->pktlen += pmlmepriv->wfd_assoc_req_ie_len;
+./core/rtw_mlme_ext.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_mlme_ext.c:		rtw_buf_update(&pmlmepriv->assoc_req, &pmlmepriv->assoc_req_len, (u8 *)pwlanhdr, pattrib->pktlen);
+./core/rtw_mlme_ext.c:	pattrib->retry_ctrl = _FALSE;
+./core/rtw_mlme_ext.c:	pattrib->pktlen = sizeof(struct rtw_ieee80211_hdr_3addr);
+./core/rtw_mlme_ext.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_mlme_ext.c:	pattrib->hdrlen +=2;
+./core/rtw_mlme_ext.c:	pattrib->qos_en = _TRUE;
+./core/rtw_mlme_ext.c:	pattrib->eosp = 1;
+./core/rtw_mlme_ext.c:	pattrib->ack_policy = 0;
+./core/rtw_mlme_ext.c:	pattrib->mdata = 0;
+./core/rtw_mlme_ext.c:	if(pattrib->mdata)
+./core/rtw_mlme_ext.c:	qc = (unsigned short *)(pframe + pattrib->hdrlen - 2);
+./core/rtw_mlme_ext.c:	SetEOSP(qc, pattrib->eosp);
+./core/rtw_mlme_ext.c:	SetAckpolicy(qc, pattrib->ack_policy);
+./core/rtw_mlme_ext.c:	pattrib->pktlen = sizeof(struct rtw_ieee80211_hdr_3addr_qos);
+./core/rtw_mlme_ext.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_mlme_ext.c:	pattrib->retry_ctrl = _FALSE;
+./core/rtw_mlme_ext.c:	pattrib->pktlen = sizeof(struct rtw_ieee80211_hdr_3addr);
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, _RSON_CODE_ , (unsigned char *)&reason, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_mlme_ext.c:	pattrib->pktlen = sizeof(struct rtw_ieee80211_hdr_3addr);
+./core/rtw_mlme_ext.c:		pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:		pframe = rtw_set_fixed_ie(pframe, 1, &(action), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_ie_ch_switch(pframe, &(pattrib->pktlen), 0, new_ch, 0);
+./core/rtw_mlme_ext.c:	pframe = rtw_set_ie_secondary_ch_offset(pframe, &(pattrib->pktlen),
+./core/rtw_mlme_ext.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_mlme_ext.c:	pattrib->pktlen = sizeof(struct rtw_ieee80211_hdr_3addr);
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &category, &pattrib->pktlen);
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &action, &pattrib->pktlen);
+./core/rtw_mlme_ext.c:			pframe = rtw_set_fixed_ie(pframe, 2, (unsigned char *)&pmlmeext->sa_query_seq, &pattrib->pktlen);
+./core/rtw_mlme_ext.c:			pframe = rtw_set_fixed_ie(pframe, 2, (unsigned char *)&tid, &pattrib->pktlen);
+./core/rtw_mlme_ext.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_mlme_ext.c:	pattrib->pktlen = sizeof(struct rtw_ieee80211_hdr_3addr);
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(action), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:				pframe = rtw_set_fixed_ie(pframe, 1, &(pmlmeinfo->dialogToken), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:				pframe = rtw_set_fixed_ie(pframe, 2, (unsigned char *)(&(BA_para_set)), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:				pframe = rtw_set_fixed_ie(pframe, 2, (unsigned char *)(&(BA_timeout_value)), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:				pframe = rtw_set_fixed_ie(pframe, 2, (unsigned char *)(&(BA_starting_seqctrl)), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:				pframe = rtw_set_fixed_ie(pframe, 1, &(pmlmeinfo->ADDBA_req.dialog_token), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:				pframe = rtw_set_fixed_ie(pframe, 2, (unsigned char *)(&status), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:				pframe = rtw_set_fixed_ie(pframe, 2, (unsigned char *)(&(BA_para_set)), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:				pframe = rtw_set_fixed_ie(pframe, 2, (unsigned char *)(&(pmlmeinfo->ADDBA_req.BA_timeout_value)), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:				pframe = rtw_set_fixed_ie(pframe, 2, (unsigned char *)(&(BA_para_set)), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:				pframe = rtw_set_fixed_ie(pframe, 2, (unsigned char *)(&(reason_code)), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_mlme_ext.c:	pattrib->pktlen = sizeof(struct rtw_ieee80211_hdr_3addr);
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(action), &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:		pframe = rtw_set_ie(pframe, EID_BSSCoexistence,  1, &iedata, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:				pframe = rtw_set_ie(pframe, EID_BSSIntolerantChlReport, k, InfoContent, &(pattrib->pktlen));
+./core/rtw_mlme_ext.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_security.c:	if((pattrib->encrypt==_WEP40_)||(pattrib->encrypt==_WEP104_))
+./core/rtw_security.c:		for(curfragnum=0;curfragnum<pattrib->nr_frags;curfragnum++)
+./core/rtw_security.c:			iv=pframe+pattrib->hdrlen;
+./core/rtw_security.c:			payload=pframe+pattrib->iv_len+pattrib->hdrlen;
+./core/rtw_security.c:			if((curfragnum+1)==pattrib->nr_frags)
+./core/rtw_security.c:				length=pattrib->last_txcmdsz-pattrib->hdrlen-pattrib->iv_len- pattrib->icv_len;
+./core/rtw_security.c:			length=pxmitpriv->frag_len-pattrib->hdrlen-pattrib->iv_len-pattrib->icv_len ;
+./core/rtw_security.c:		WEP_SW_ENC_CNT_INC(psecuritypriv, pattrib->ra);
+./core/rtw_security.c:	if(pattrib->encrypt==_TKIP_){
+./core/rtw_security.c:		if(pattrib->psta)
+./core/rtw_security.c:			stainfo = pattrib->psta;
+./core/rtw_security.c:			stainfo=rtw_get_stainfo(&padapter->stapriv ,&pattrib->ra[0] );
+./core/rtw_security.c:			if(IS_MCAST(pattrib->ra))
+./core/rtw_security.c:			for(curfragnum=0;curfragnum<pattrib->nr_frags;curfragnum++){
+./core/rtw_security.c:				iv=pframe+pattrib->hdrlen;
+./core/rtw_security.c:				payload=pframe+pattrib->iv_len+pattrib->hdrlen;
+./core/rtw_security.c:				phase1((u16 *)&ttkey[0],prwskey,&pattrib->ta[0],pnh);
+./core/rtw_security.c:				if((curfragnum+1)==pattrib->nr_frags){	//4 the last fragment
+./core/rtw_security.c:					length=pattrib->last_txcmdsz-pattrib->hdrlen-pattrib->iv_len- pattrib->icv_len;
+./core/rtw_security.c:					RT_TRACE(_module_rtl871x_security_c_,_drv_info_,("pattrib->iv_len =%x, pattrib->icv_len =%x\n", pattrib->iv_len,pattrib->icv_len));
+./core/rtw_security.c:					length=pxmitpriv->frag_len-pattrib->hdrlen-pattrib->iv_len-pattrib->icv_len ;
+./core/rtw_security.c:			TKIP_SW_ENC_CNT_INC(psecuritypriv,pattrib->ra);
+./core/rtw_security.c:	if((pattrib->encrypt==_AES_)){
+./core/rtw_security.c:		if(pattrib->psta)
+./core/rtw_security.c:			stainfo = pattrib->psta;
+./core/rtw_security.c:			stainfo=rtw_get_stainfo(&padapter->stapriv ,&pattrib->ra[0] );
+./core/rtw_security.c:			if(IS_MCAST(pattrib->ra))
+./core/rtw_security.c:				ptdls_sta=rtw_get_stainfo(&padapter->stapriv ,&pattrib->dst[0] );
+./core/rtw_security.c:			for(curfragnum=0;curfragnum<pattrib->nr_frags;curfragnum++){
+./core/rtw_security.c:				if((curfragnum+1)==pattrib->nr_frags){	//4 the last fragment
+./core/rtw_security.c:					length=pattrib->last_txcmdsz-pattrib->hdrlen-pattrib->iv_len- pattrib->icv_len;
+./core/rtw_security.c:					aes_cipher(prwskey,pattrib->hdrlen,pframe, length);
+./core/rtw_security.c:					length=pxmitpriv->frag_len-pattrib->hdrlen-pattrib->iv_len-pattrib->icv_len ;
+./core/rtw_security.c:					aes_cipher(prwskey,pattrib->hdrlen,pframe, length);
+./core/rtw_security.c:			AES_SW_ENC_CNT_INC(psecuritypriv, pattrib->ra);
+./core/rtw_security.c:	ori_len = pattrib->pkt_len-WLAN_HDR_A3_LEN+BIP_AAD_SIZE;
+./core/rtw_security.c:	_rtw_memcpy(BIP_AAD+BIP_AAD_SIZE, pframe+WLAN_HDR_A3_LEN, pattrib->pkt_len-WLAN_HDR_A3_LEN);
+./core/rtw_security.c:	p = rtw_get_ie(BIP_AAD+BIP_AAD_SIZE, _MME_IE_, &len, pattrib->pkt_len-WLAN_HDR_A3_LEN);
+./core/rtw_security.c:			for(pp=0;pp< pattrib->pkt_len; pp++)
+./core/rtw_security.c:		if(_rtw_memcmp(mic, pframe+pattrib->pkt_len-8, 8))
+./core/rtw_recv.c:			if(pattrib->bdecrypted==0)
+./core/rtw_recv.c:				RT_TRACE(_module_rtl871x_recv_c_,_drv_info_,("portctrl:prxstat->decrypted=%x\n", pattrib->bdecrypted));
+./core/rtw_recv.c:	if (pattrib->encrypt == _AES_) {		
+./core/rtw_recv.c:		_rtw_memcpy(&tmp_iv_hdr, (pdata + pattrib->hdrlen), 8);
+./core/rtw_recv.c:			_rtw_memcpy(prxcache->iv[tid], (pdata + pattrib->hdrlen), sizeof(prxcache->iv[tid]));
+./core/rtw_recv.c:			_rtw_memcpy(prxcache->iv[tid], (pdata + pattrib->hdrlen), sizeof(prxcache->iv[tid]));
+./core/rtw_recv.c:	if ((pattrib->encrypt == _AES_) &&
+./core/rtw_recv.c:		_rtw_memcpy(&tmp_iv_hdr, (pdata + pattrib->hdrlen), 8);
+./core/rtw_recv.c:	psta = rtw_get_stainfo(pstapriv, pattrib->src);
+./core/rtw_recv.c:	psta = rtw_get_stainfo(pstapriv, pattrib->src);
+./core/rtw_recv.c:		switch(pattrib->priority)
+./core/rtw_recv.c:				issue_qos_nulldata(padapter, psta->hwaddr, (u16)pattrib->priority, 0, 0);
+./core/rtw_recv.c:	paction+=pattrib->hdrlen 
+./core/rtw_recv.c:			+ pattrib->iv_len 
+./core/rtw_recv.c:	if( (!MacAddr_isBcst(pattrib->dst)) && (!IS_MCAST(pattrib->dst))){
+./core/rtw_recv.c:	if( (!MacAddr_isBcst(pattrib->dst)) && (IS_MCAST(pattrib->dst))){
+./core/rtw_recv.c:	sint bmcast = IS_MCAST(pattrib->dst);
+./core/rtw_recv.c:	u8 *psnap_type=ptr+pattrib->hdrlen + pattrib->iv_len+SNAP_SIZE;
+./core/rtw_recv.c:		if (_rtw_memcmp(myhwaddr, pattrib->src, ETH_ALEN)){
+./core/rtw_recv.c:		if( (!_rtw_memcmp(myhwaddr, pattrib->dst, ETH_ALEN))	&& (!bmcast) ){
+./core/rtw_recv.c:		if( _rtw_memcmp(pattrib->bssid, "\x0\x0\x0\x0\x0\x0", ETH_ALEN) ||
+./core/rtw_recv.c:		   (!_rtw_memcmp(pattrib->bssid, mybssid, ETH_ALEN)) ) {
+./core/rtw_recv.c:		sta_addr = pattrib->src;
+./core/rtw_recv.c:			ptdls_sta = rtw_get_stainfo(pstapriv, pattrib->src);
+./core/rtw_recv.c:				if (_rtw_memcmp(myhwaddr, pattrib->src, ETH_ALEN)){
+./core/rtw_recv.c:				if((!_rtw_memcmp(myhwaddr, pattrib->dst, ETH_ALEN))&& (!bmcast))
+./core/rtw_recv.c:				if( _rtw_memcmp(pattrib->bssid, "\x0\x0\x0\x0\x0\x0", ETH_ALEN) ||
+./core/rtw_recv.c:				     (!_rtw_memcmp(pattrib->bssid, mybssid, ETH_ALEN)) )
+./core/rtw_recv.c:			sta_addr = pattrib->src;
+./core/rtw_recv.c:			if(!_rtw_memcmp(pattrib->bssid, pattrib->src, ETH_ALEN) )
+./core/rtw_recv.c:			sta_addr = pattrib->bssid;
+./core/rtw_recv.c:			if (!IS_MCAST(pattrib->bssid)){
+./core/rtw_recv.c:			if(!_rtw_memcmp(pattrib->bssid, pattrib->dst, ETH_ALEN)) {
+./core/rtw_recv.c:			sta_addr = pattrib->src;
+./core/rtw_recv.c:		_rtw_memcpy(pattrib->dst, GetAddr1Ptr(ptr), ETH_ALEN);
+./core/rtw_recv.c:		_rtw_memcpy(pattrib->src, GetAddr2Ptr(ptr), ETH_ALEN);
+./core/rtw_recv.c:		_rtw_memcpy(pattrib->bssid, GetAddr3Ptr(ptr), ETH_ALEN);
+./core/rtw_recv.c:		_rtw_memcpy(pattrib->ra, pattrib->dst, ETH_ALEN);
+./core/rtw_recv.c:		_rtw_memcpy(pattrib->ta, pattrib->src, ETH_ALEN);
+./core/rtw_recv.c:	sint bmcast = IS_MCAST(pattrib->dst);
+./core/rtw_recv.c:		if (_rtw_memcmp(myhwaddr, pattrib->src, ETH_ALEN)){
+./core/rtw_recv.c:				pattrib->src[0], pattrib->src[1], pattrib->src[2],
+./core/rtw_recv.c:				pattrib->src[3], pattrib->src[4], pattrib->src[5],
+./core/rtw_recv.c:		if((!_rtw_memcmp(myhwaddr, pattrib->dst, ETH_ALEN))&& (!bmcast))
+./core/rtw_recv.c:				(" ap2sta_data_frame:  compare DA fail; DA="MAC_FMT"\n", MAC_ARG(pattrib->dst)));
+./core/rtw_recv.c:			DBG_871X("DBG_RX_DROP_FRAME %s DA="MAC_FMT"\n", __func__, MAC_ARG(pattrib->dst));
+./core/rtw_recv.c:		if( _rtw_memcmp(pattrib->bssid, "\x0\x0\x0\x0\x0\x0", ETH_ALEN) ||
+./core/rtw_recv.c:		     (!_rtw_memcmp(pattrib->bssid, mybssid, ETH_ALEN)) )
+./core/rtw_recv.c:				(" ap2sta_data_frame:  compare BSSID fail ; BSSID="MAC_FMT"\n", MAC_ARG(pattrib->bssid)));
+./core/rtw_recv.c:				__FUNCTION__, MAC_ARG(pattrib->bssid), MAC_ARG(mybssid));
+./core/rtw_recv.c:				DBG_871X("issue_deauth to the nonassociated ap=" MAC_FMT " for the reason(7)\n", MAC_ARG(pattrib->bssid));
+./core/rtw_recv.c:				issue_deauth(adapter, pattrib->bssid, WLAN_REASON_CLASS3_FRAME_FROM_NONASSOC_STA);
+./core/rtw_recv.c:			*psta = rtw_get_stainfo(pstapriv, pattrib->bssid); // get ap_info
+./core/rtw_recv.c:		_rtw_memcpy(pattrib->dst, GetAddr1Ptr(ptr), ETH_ALEN);
+./core/rtw_recv.c:		_rtw_memcpy(pattrib->src, GetAddr2Ptr(ptr), ETH_ALEN);
+./core/rtw_recv.c:		_rtw_memcpy(pattrib->bssid, GetAddr3Ptr(ptr), ETH_ALEN);
+./core/rtw_recv.c:		_rtw_memcpy(pattrib->ra, pattrib->dst, ETH_ALEN);
+./core/rtw_recv.c:		_rtw_memcpy(pattrib->ta, pattrib->src, ETH_ALEN);
+./core/rtw_recv.c:		_rtw_memcpy(pattrib->bssid,  mybssid, ETH_ALEN);
+./core/rtw_recv.c:		*psta = rtw_get_stainfo(pstapriv, pattrib->bssid); // get sta_info
+./core/rtw_recv.c:		if(_rtw_memcmp(myhwaddr, pattrib->dst, ETH_ALEN)&& (!bmcast))
+./core/rtw_recv.c:			*psta = rtw_get_stainfo(pstapriv, pattrib->bssid); // get sta_info
+./core/rtw_recv.c:				DBG_871X("issue_deauth to the ap=" MAC_FMT " for the reason(7)\n", MAC_ARG(pattrib->bssid));
+./core/rtw_recv.c:				issue_deauth(adapter, pattrib->bssid, WLAN_REASON_CLASS3_FRAME_FROM_NONASSOC_STA);
+./core/rtw_recv.c:		if(!_rtw_memcmp(pattrib->bssid, mybssid, ETH_ALEN))
+./core/rtw_recv.c:		*psta = rtw_get_stainfo(pstapriv, pattrib->src);
+./core/rtw_recv.c:			DBG_871X("issue_deauth to sta=" MAC_FMT " for the reason(7)\n", MAC_ARG(pattrib->src));
+./core/rtw_recv.c:			issue_deauth(adapter, pattrib->src, WLAN_REASON_CLASS3_FRAME_FROM_NONASSOC_STA);
+./core/rtw_recv.c:		if (!_rtw_memcmp(pattrib->ra, myhwaddr, ETH_ALEN)) {
+./core/rtw_recv.c:		DBG_871X("issue_deauth to sta=" MAC_FMT " for the reason(7)\n", MAC_ARG(pattrib->src));
+./core/rtw_recv.c:		issue_deauth(adapter, pattrib->src, WLAN_REASON_CLASS3_FRAME_FROM_NONASSOC_STA);
+./core/rtw_recv.c:		switch(pattrib->priority)
+./core/rtw_recv.c:		_rtw_memcpy(pattrib->dst, pda, ETH_ALEN);
+./core/rtw_recv.c:		_rtw_memcpy(pattrib->src, psa, ETH_ALEN);
+./core/rtw_recv.c:		_rtw_memcpy(pattrib->bssid, pbssid, ETH_ALEN);
+./core/rtw_recv.c:	switch(pattrib->to_fr_ds)
+./core/rtw_recv.c:			_rtw_memcpy(pattrib->ra, pda, ETH_ALEN);
+./core/rtw_recv.c:			_rtw_memcpy(pattrib->ta, psa, ETH_ALEN);
+./core/rtw_recv.c:			_rtw_memcpy(pattrib->ra, pda, ETH_ALEN);
+./core/rtw_recv.c:			_rtw_memcpy(pattrib->ta, pbssid, ETH_ALEN);
+./core/rtw_recv.c:			_rtw_memcpy(pattrib->ra, pbssid, ETH_ALEN);
+./core/rtw_recv.c:			_rtw_memcpy(pattrib->ta, psa, ETH_ALEN);
+./core/rtw_recv.c:			_rtw_memcpy(pattrib->ra, GetAddr1Ptr(ptr), ETH_ALEN);
+./core/rtw_recv.c:			_rtw_memcpy(pattrib->ta, GetAddr2Ptr(ptr), ETH_ALEN);
+./core/rtw_recv.c:			pattrib->priority=0;
+./core/rtw_recv.c:			pattrib->hdrlen = pattrib->to_fr_ds==3 ? 30 : 24;
+./core/rtw_recv.c:	_rtw_memcpy(pattrib->dst, pda, ETH_ALEN);
+./core/rtw_recv.c:	_rtw_memcpy(pattrib->src, psa, ETH_ALEN);
+./core/rtw_recv.c:	_rtw_memcpy(pattrib->bssid, pbssid, ETH_ALEN);
+./core/rtw_recv.c:	switch(pattrib->to_fr_ds)
+./core/rtw_recv.c:			_rtw_memcpy(pattrib->ra, pda, ETH_ALEN);
+./core/rtw_recv.c:			_rtw_memcpy(pattrib->ta, psa, ETH_ALEN);
+./core/rtw_recv.c:			_rtw_memcpy(pattrib->ra, pda, ETH_ALEN);
+./core/rtw_recv.c:			_rtw_memcpy(pattrib->ta, pbssid, ETH_ALEN);
+./core/rtw_recv.c:			_rtw_memcpy(pattrib->ra, pbssid, ETH_ALEN);
+./core/rtw_recv.c:			_rtw_memcpy(pattrib->ta, psa, ETH_ALEN);
+./core/rtw_recv.c:			_rtw_memcpy(pattrib->ra, GetAddr1Ptr(ptr), ETH_ALEN);
+./core/rtw_recv.c:			_rtw_memcpy(pattrib->ta, GetAddr2Ptr(ptr), ETH_ALEN);
+./core/rtw_recv.c:		DBG_871X("DBG_RX_DROP_FRAME %s case:%d, res:%d\n", __FUNCTION__, pattrib->to_fr_ds, ret);
+./core/rtw_recv.c:	pattrib->amsdu=0;
+./core/rtw_recv.c:	pattrib->ack_policy = 0;
+./core/rtw_recv.c:	if(pattrib->qos == 1)
+./core/rtw_recv.c:		pattrib->priority = GetPriority((ptr + 24));
+./core/rtw_recv.c:		pattrib->ack_policy = GetAckpolicy((ptr + 24));
+./core/rtw_recv.c:		pattrib->amsdu = GetAMsdu((ptr + 24));
+./core/rtw_recv.c:		pattrib->hdrlen = pattrib->to_fr_ds==3 ? 32 : 26;
+./core/rtw_recv.c:		if(pattrib->priority!=0 && pattrib->priority!=3)
+./core/rtw_recv.c:		pattrib->priority=0;
+./core/rtw_recv.c:		pattrib->hdrlen = pattrib->to_fr_ds==3 ? 30 : 24;
+./core/rtw_recv.c:	if(pattrib->order)//HT-CTRL 11n
+./core/rtw_recv.c:		pattrib->hdrlen += 4;
+./core/rtw_recv.c:	precv_frame->u.hdr.preorder_ctrl = &psta->recvreorder_ctrl[pattrib->priority];
+./core/rtw_recv.c:			pattrib->encrypt=psta->dot118021XPrivacy;
+./core/rtw_recv.c:	if (!IS_MCAST(pattrib->ra)) {
+./core/rtw_recv.c:	if(pattrib->privacy){
+./core/rtw_recv.c:		RT_TRACE(_module_rtl871x_recv_c_,_drv_info_,("validate_recv_data_frame:pattrib->privacy=%x\n", pattrib->privacy));
+./core/rtw_recv.c:		RT_TRACE(_module_rtl871x_recv_c_,_drv_info_,("\n ^^^^^^^^^^^IS_MCAST(pattrib->ra(0x%02x))=%d^^^^^^^^^^^^^^^6\n", pattrib->ra[0],IS_MCAST(pattrib->ra)));
+./core/rtw_recv.c:				pattrib->encrypt=psta->dot118021XPrivacy;
+./core/rtw_recv.c:		GET_ENCRY_ALGO(psecuritypriv, psta, pattrib->encrypt, IS_MCAST(pattrib->ra));
+./core/rtw_recv.c:		RT_TRACE(_module_rtl871x_recv_c_,_drv_info_,("\n pattrib->encrypt=%d\n",pattrib->encrypt));
+./core/rtw_recv.c:		SET_ICE_IV_LEN(pattrib->iv_len, pattrib->icv_len, pattrib->encrypt);
+./core/rtw_recv.c:		pattrib->encrypt = 0;
+./core/rtw_recv.c:		pattrib->iv_len = pattrib->icv_len = 0;
+./core/rtw_recv.c:		if(pattrib->privacy && !(IS_MCAST(GetAddr1Ptr(ptr))) && 
+./core/rtw_recv.c:			pattrib->bdecrypted = 0;
+./core/rtw_recv.c:			pattrib->encrypt = _AES_;
+./core/rtw_recv.c:			pattrib->hdrlen = sizeof(struct rtw_ieee80211_hdr_3addr);
+./core/rtw_recv.c:			SET_ICE_IV_LEN(pattrib->iv_len, pattrib->icv_len, pattrib->encrypt);
+./core/rtw_recv.c:			_rtw_memcpy(pattrib->ra, GetAddr1Ptr(ptr), ETH_ALEN);
+./core/rtw_recv.c:			_rtw_memcpy(pattrib->ta, GetAddr2Ptr(ptr), ETH_ALEN);
+./core/rtw_recv.c:			data_len = pattrib->pkt_len - pattrib->hdrlen - pattrib->iv_len - pattrib->icv_len;
+./core/rtw_recv.c:				printk("pattrib->pktlen = %d =>", pattrib->pkt_len);
+./core/rtw_recv.c:				for(pp=0;pp< pattrib->pkt_len; pp++)
+./core/rtw_recv.c:			_rtw_memcpy(mgmt_DATA, ptr+pattrib->hdrlen+pattrib->iv_len, data_len);
+./core/rtw_recv.c:			_rtw_memcpy(ptr+pattrib->hdrlen, mgmt_DATA, data_len);
+./core/rtw_recv.c:			pattrib->pkt_len = pattrib->pkt_len - pattrib->iv_len - pattrib->icv_len;
+./core/rtw_recv.c:				printk("after decryption pattrib->pktlen = %d @@=>", pattrib->pkt_len);
+./core/rtw_recv.c:				for(pp=0;pp< pattrib->pkt_len; pp++)
+./core/rtw_recv.c:	pattrib->to_fr_ds = get_tofr_ds(ptr);
+./core/rtw_recv.c:	pattrib->frag_num = GetFragNum(ptr);
+./core/rtw_recv.c:	pattrib->seq_num = GetSequence(ptr);
+./core/rtw_recv.c:	pattrib->pw_save = GetPwrMgt(ptr);
+./core/rtw_recv.c:	pattrib->mfrag = GetMFrag(ptr);
+./core/rtw_recv.c:	pattrib->mdata = GetMData(ptr);
+./core/rtw_recv.c:	pattrib->privacy = GetPrivacy(ptr);
+./core/rtw_recv.c:	pattrib->order = GetOrder(ptr);
+./core/rtw_recv.c:			pattrib->qos = (subtype & BIT(7))? 1:0;
+./core/rtw_recv.c:	if(pattrib->encrypt){
+./core/rtw_recv.c:		recvframe_pull_tail(precvframe, pattrib->icv_len);	
+./core/rtw_recv.c:	psnap=(struct ieee80211_snap_hdr	*)(ptr+pattrib->hdrlen + pattrib->iv_len);
+./core/rtw_recv.c:	psnap_type=ptr+pattrib->hdrlen + pattrib->iv_len+SNAP_SIZE;
+./core/rtw_recv.c:	rmv_len = pattrib->hdrlen + pattrib->iv_len +(bsnaphdr?SNAP_SIZE:0);
+./core/rtw_recv.c:	RT_TRACE(_module_rtl871x_recv_c_,_drv_info_,("\n===pattrib->hdrlen: %x,  pattrib->iv_len:%x ===\n\n", pattrib->hdrlen,  pattrib->iv_len));
+./core/rtw_recv.c:	eth_type= ntohs((unsigned short )eth_type); //pattrib->ether_type
+./core/rtw_recv.c:	pattrib->eth_type = eth_type;
+./core/rtw_recv.c:	_rtw_memcpy(ptr, pattrib->dst, ETH_ALEN);
+./core/rtw_recv.c:	_rtw_memcpy(ptr+ETH_ALEN, pattrib->src, ETH_ALEN);
+./core/rtw_recv.c:	psnap=(struct ieee80211_snap_hdr	*)(ptr+pattrib->hdrlen + pattrib->iv_len);
+./core/rtw_recv.c:	psnap_type=ptr+pattrib->hdrlen + pattrib->iv_len+SNAP_SIZE;
+./core/rtw_recv.c:	rmv_len = pattrib->hdrlen + pattrib->iv_len +(bsnaphdr?SNAP_SIZE:0);
+./core/rtw_recv.c:	RT_TRACE(_module_rtl871x_recv_c_,_drv_info_,("===pattrib->hdrlen: %x,  pattrib->iv_len:%x ===\n", pattrib->hdrlen,  pattrib->iv_len));
+./core/rtw_recv.c:	eth_type= ntohs((unsigned short )eth_type); //pattrib->ether_type
+./core/rtw_recv.c:	if(pattrib->encrypt){
+./core/rtw_recv.c:		recvframe_pull_tail(precvframe, pattrib->icv_len);
+./core/rtw_recv.c:		//__u8 tos = (unsigned char)(pattrib->priority & 0xff);
+./core/rtw_recv.c:	_rtw_memcpy(ptr, pattrib->dst, ETH_ALEN);
+./core/rtw_recv.c:	_rtw_memcpy(ptr+ETH_ALEN, pattrib->src, ETH_ALEN);
+./core/rtw_recv.c:			_rtw_memcpy(skb_push(sub_skb, ETH_ALEN), pattrib->src, ETH_ALEN);
+./core/rtw_recv.c:			_rtw_memcpy(skb_push(sub_skb, ETH_ALEN), pattrib->dst, ETH_ALEN);
+./core/rtw_recv.c:			_rtw_memcpy(skb_push(sub_skb, ETH_ALEN), pattrib->src, ETH_ALEN);
+./core/rtw_recv.c:			_rtw_memcpy(skb_push(sub_skb, ETH_ALEN), pattrib->dst, ETH_ALEN);
+./core/rtw_recv.c:			if ( (pattrib->tcpchk_valid == 1) && (pattrib->tcp_chkrpt == 1) ) {
+./core/rtw_recv.c:			_rtw_memcpy(&ptr[offset-ETH_ALEN], pattrib->src, ETH_ALEN);
+./core/rtw_recv.c:			_rtw_memcpy(&ptr[offset-ETH_ALEN], pattrib->dst, ETH_ALEN);
+./core/rtw_recv.c:			_rtw_memcpy(&ptr[offset-ETH_ALEN], pattrib->src, ETH_ALEN);
+./core/rtw_recv.c:			_rtw_memcpy(&ptr[offset-ETH_ALEN], pattrib->dst, ETH_ALEN);
+./core/rtw_recv.c:			if ( (pattrib->tcpchk_valid == 1) && (pattrib->tcp_chkrpt == 1) ) {
+./core/rtw_recv.c:		eth_type= ntohs((unsigned short )eth_type); //pattrib->ether_type
+./core/rtw_recv.c:		if(SN_LESS(pnextattrib->seq_num, pattrib->seq_num))
+./core/rtw_recv.c:		else if( SN_EQUAL(pnextattrib->seq_num, pattrib->seq_num))
+./core/rtw_recv.c:		recv_indicatepkts_pkt_loss_cnt(pdbgpriv,preorder_ctrl->indicate_seq,pattrib->seq_num);
+./core/rtw_recv.c:		preorder_ctrl->indicate_seq = pattrib->seq_num;		
+./core/rtw_recv.c:			preorder_ctrl->indicate_seq, pattrib->seq_num);
+./core/rtw_recv.c:		if(!SN_LESS(preorder_ctrl->indicate_seq, pattrib->seq_num))
+./core/rtw_recv.c:				  preorder_ctrl->indicate_seq, pattrib->seq_num, pattrib->amsdu));
+./core/rtw_recv.c:			if(SN_EQUAL(preorder_ctrl->indicate_seq, pattrib->seq_num))
+./core/rtw_recv.c:					preorder_ctrl->indicate_seq, pattrib->seq_num);
+./core/rtw_recv.c:			//DbgPrint("recv_indicatepkts_in_order, indicate_seq=%d, seq_num=%d\n", precvpriv->indicate_seq, pattrib->seq_num);
+./core/rtw_recv.c:			if(!pattrib->amsdu)
+./core/rtw_recv.c:				//DBG_871X("recv_indicatepkts_in_order, amsdu!=1, indicate_seq=%d, seq_num=%d\n", preorder_ctrl->indicate_seq, pattrib->seq_num);
+./core/rtw_recv.c:			else if(pattrib->amsdu==1)
+./core/rtw_recv.c:	if(!pattrib->amsdu)
+./core/rtw_recv.c:		//if ((pattrib->qos!=1) /*|| pattrib->priority!=0 || IS_MCAST(pattrib->ra)*/
+./core/rtw_recv.c:		//	|| (pattrib->eth_type==0x0806) || (pattrib->ack_policy!=0))
+./core/rtw_recv.c:		if (pattrib->qos!=1)
+./core/rtw_recv.c:			DBG_871X("DBG_RX_DROP_FRAME %s pattrib->qos !=1\n", __FUNCTION__);
+./core/rtw_recv.c:			preorder_ctrl->indicate_seq = pattrib->seq_num;
+./core/rtw_recv.c:				preorder_ctrl->indicate_seq, pattrib->seq_num);
+./core/rtw_recv.c:				preorder_ctrl->indicate_seq, pattrib->seq_num);
+./core/rtw_recv.c:	else if(pattrib->amsdu==1) //temp filter -> means didn't support A-MSDUs in a A-MPDU
+./core/rtw_recv.c:			preorder_ctrl->indicate_seq = pattrib->seq_num;
+./core/rtw_recv.c:				preorder_ctrl->indicate_seq, pattrib->seq_num);
+./core/rtw_recv.c:				preorder_ctrl->indicate_seq, pattrib->seq_num);
+./core/rtw_recv.c:		  preorder_ctrl->indicate_seq, pattrib->seq_num));
+./core/rtw_recv.c:	if(!check_indicate_seq(preorder_ctrl, pattrib->seq_num))
+./core/rtw_recv.c:		//prframe->u.hdr.preorder_ctrl = &precvpriv->recvreorder_ctrl[pattrib->priority];
+./core/rtw_recv.c:		if (pattrib->crc_err == 1)
+./core/rtw_recv.c:	psnap_type+=pattrib->hdrlen + pattrib->iv_len+SNAP_SIZE;
+./core/rtw_recv.c:		ptdls_sta = rtw_get_stainfo(&padapter->stapriv, pattrib->src);
+./core/rtw_recv.c:	if (!pattrib->amsdu)
+./core/rtw_recv.c:	else if(pattrib->amsdu==1)
+./core/rtw_p2p.c:	pattrib->pktlen = sizeof(struct rtw_ieee80211_hdr_3addr);
+./core/rtw_p2p.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));	
+./core/rtw_p2p.c:	pframe = rtw_set_fixed_ie(pframe, 4, (unsigned char *) &(p2poui), &(pattrib->pktlen));
+./core/rtw_p2p.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(oui_subtype), &(pattrib->pktlen));	
+./core/rtw_p2p.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(dialogToken), &(pattrib->pktlen));		
+./core/rtw_p2p.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_p2p.c:	pattrib->pktlen = sizeof(struct rtw_ieee80211_hdr_3addr);
+./core/rtw_p2p.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));
+./core/rtw_p2p.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(action), &(pattrib->pktlen));
+./core/rtw_p2p.c:	pframe = rtw_set_fixed_ie(pframe, 4, (unsigned char *) &(p2poui), &(pattrib->pktlen));
+./core/rtw_p2p.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(oui_subtype), &(pattrib->pktlen));	
+./core/rtw_p2p.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(dialogToken), &(pattrib->pktlen));		
+./core/rtw_p2p.c:	pframe = rtw_set_ie(pframe, _VENDOR_SPECIFIC_IE_, p2pielen, p2pie, &pattrib->pktlen);	
+./core/rtw_p2p.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_p2p.c:	pattrib->pktlen = sizeof(struct rtw_ieee80211_hdr_3addr);
+./core/rtw_p2p.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));
+./core/rtw_p2p.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(action), &(pattrib->pktlen));
+./core/rtw_p2p.c:	pframe = rtw_set_fixed_ie(pframe, 4, (unsigned char *) &(p2poui), &(pattrib->pktlen));
+./core/rtw_p2p.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(oui_subtype), &(pattrib->pktlen));	
+./core/rtw_p2p.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(dialogToken), &(pattrib->pktlen));		
+./core/rtw_p2p.c:	pframe = rtw_set_ie(pframe, _VENDOR_SPECIFIC_IE_, wpsielen, (unsigned char *) wpsie, &pattrib->pktlen );	
+./core/rtw_p2p.c:	pattrib->pktlen += wfdielen;
+./core/rtw_p2p.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_p2p.c:	pattrib->pktlen = sizeof(struct rtw_ieee80211_hdr_3addr);
+./core/rtw_p2p.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));	
+./core/rtw_p2p.c:	pframe = rtw_set_fixed_ie(pframe, 4, (unsigned char *) &(p2poui), &(pattrib->pktlen));
+./core/rtw_p2p.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(oui_subtype), &(pattrib->pktlen));	
+./core/rtw_p2p.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(dialogToken), &(pattrib->pktlen));	
+./core/rtw_p2p.c:	pframe = rtw_set_ie(pframe, _VENDOR_SPECIFIC_IE_, p2pielen, p2pie, &(pattrib->pktlen));
+./core/rtw_p2p.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_xmit.c:	struct sta_info	*psta = pattrib->psta;
+./core/rtw_xmit.c:        if(pattrib->psta)
+./core/rtw_xmit.c:		psta = pattrib->psta;
+./core/rtw_xmit.c:		psta=rtw_get_stainfo(&padapter->stapriv ,&pattrib->ra[0] );
+./core/rtw_xmit.c:	if (pattrib->nr_frags != 1)
+./core/rtw_xmit.c:		sz = pattrib->last_txcmdsz;
+./core/rtw_xmit.c:			pattrib->vcs_mode = RTS_CTS;
+./core/rtw_xmit.c:				pattrib->vcs_mode = RTS_CTS;
+./core/rtw_xmit.c:				pattrib->vcs_mode = CTS_TO_SELF;
+./core/rtw_xmit.c:				pattrib->vcs_mode = NONE_VCS;
+./core/rtw_xmit.c:				pattrib->vcs_mode = CTS_TO_SELF;
+./core/rtw_xmit.c:				pattrib->rts_rate = MGN_24M;
+./core/rtw_xmit.c:				pattrib->vcs_mode = RTS_CTS;
+./core/rtw_xmit.c:				pattrib->rts_rate = MGN_24M;
+./core/rtw_xmit.c:			if((pmlmeinfo->assoc_AP_vendor == atherosAP) && (pattrib->ampdu_en==_TRUE) &&
+./core/rtw_xmit.c:				pattrib->vcs_mode = CTS_TO_SELF;
+./core/rtw_xmit.c:					pattrib->vcs_mode = RTS_CTS;
+./core/rtw_xmit.c:					pattrib->vcs_mode = CTS_TO_SELF;
+./core/rtw_xmit.c:			if(pattrib->ht_en)
+./core/rtw_xmit.c:					pattrib->vcs_mode = RTS_CTS;
+./core/rtw_xmit.c:				pattrib->vcs_mode = RTS_CTS;
+./core/rtw_xmit.c:			if(pattrib->ampdu_en==_TRUE)
+./core/rtw_xmit.c:				pattrib->vcs_mode = RTS_CTS;
+./core/rtw_xmit.c:			pattrib->vcs_mode = NONE_VCS;
+./core/rtw_xmit.c:		pattrib->vcs_mode = RTS_CTS;	
+./core/rtw_xmit.c:		pattrib->vcs_mode = CTS_TO_SELF;	
+./core/rtw_xmit.c:		pattrib->vcs_mode = NONE_VCS;*/
+./core/rtw_xmit.c:	pattrib->mdata = 0;
+./core/rtw_xmit.c:	pattrib->eosp = 0;
+./core/rtw_xmit.c:	pattrib->triggered=0;
+./core/rtw_xmit.c:	pattrib->qos_en = psta->qos_option;
+./core/rtw_xmit.c:	pattrib->ht_en = psta->htpriv.ht_option;
+./core/rtw_xmit.c:	pattrib->raid = psta->raid;
+./core/rtw_xmit.c:	pattrib->bwmode = psta->htpriv.bwmode;
+./core/rtw_xmit.c:	pattrib->ch_offset = psta->htpriv.ch_offset;
+./core/rtw_xmit.c:	pattrib->sgi= psta->htpriv.sgi;
+./core/rtw_xmit.c:	pattrib->ampdu_en = _FALSE;
+./core/rtw_xmit.c:	//if(pattrib->ht_en && psta->htpriv.ampdu_enable)
+./core/rtw_xmit.c:	//	if(psta->htpriv.agg_enable_bitmap & BIT(pattrib->priority))
+./core/rtw_xmit.c:	//		pattrib->ampdu_en = _TRUE;
+./core/rtw_xmit.c:	pattrib->retry_ctrl = _FALSE;
+./core/rtw_xmit.c:			DBG_871X("qos_acm(): invalid pattrib->priority: %d!!!\n", priority);
+./core/rtw_xmit.c:	if (pattrib->ether_type == 0x0800) {
+./core/rtw_xmit.c:	} else if (pattrib->ether_type == 0x888e) {
+./core/rtw_xmit.c:	pattrib->priority = UserPriority;
+./core/rtw_xmit.c:	pattrib->hdrlen = WLAN_HDR_A3_QOS_LEN;
+./core/rtw_xmit.c:	pattrib->subtype = WIFI_QOS_DATA_TYPE;
+./core/rtw_xmit.c:	pattrib->ether_type = ntohs(etherhdr.h_proto);
+./core/rtw_xmit.c:	_rtw_memcpy(pattrib->dst, &etherhdr.h_dest, ETH_ALEN);
+./core/rtw_xmit.c:	_rtw_memcpy(pattrib->src, &etherhdr.h_source, ETH_ALEN);
+./core/rtw_xmit.c:	pattrib->pctrl = 0;
+./core/rtw_xmit.c:		_rtw_memcpy(pattrib->ra, pattrib->dst, ETH_ALEN);
+./core/rtw_xmit.c:		_rtw_memcpy(pattrib->ta, myid(&padapter->eeprompriv), ETH_ALEN);
+./core/rtw_xmit.c:		_rtw_memcpy(pattrib->ra, get_bssid(pmlmepriv), ETH_ALEN);
+./core/rtw_xmit.c:		_rtw_memcpy(pattrib->ta, myid(&padapter->eeprompriv), ETH_ALEN);
+./core/rtw_xmit.c:		_rtw_memcpy(pattrib->ra, pattrib->dst, ETH_ALEN);
+./core/rtw_xmit.c:		_rtw_memcpy(pattrib->ta, get_bssid(pmlmepriv), ETH_ALEN);
+./core/rtw_xmit.c:	pattrib->pktlen = pktfile.pkt_len;
+./core/rtw_xmit.c:	if (ETH_P_IP == pattrib->ether_type)
+./core/rtw_xmit.c:		pattrib->dhcp_pkt = 0;
+./core/rtw_xmit.c:			if (ETH_P_IP == pattrib->ether_type) {// IP header
+./core/rtw_xmit.c:					pattrib->dhcp_pkt = 1;
+./core/rtw_xmit.c:	if ( (pattrib->ether_type == 0x888e) || (pattrib->dhcp_pkt == 1) )
+./core/rtw_xmit.c:	if ( (pattrib->ether_type == 0x0806) || (pattrib->ether_type == 0x888e) || (pattrib->dhcp_pkt == 1) )
+./core/rtw_xmit.c:	bmcast = IS_MCAST(pattrib->ra);
+./core/rtw_xmit.c:		psta = rtw_get_stainfo(pstapriv, pattrib->ra);
+./core/rtw_xmit.c:			RT_TRACE(_module_rtl871x_xmit_c_, _drv_alert_, ("\nupdate_attrib => get sta_info fail, ra:" MAC_FMT"\n", MAC_ARG(pattrib->ra)));
+./core/rtw_xmit.c:			DBG_871X("DBG_TX_DROP_FRAME %s get sta_info fail, ra:" MAC_FMT"\n", __FUNCTION__, MAC_ARG(pattrib->ra));
+./core/rtw_xmit.c:		pattrib->mac_id = psta->mac_id;
+./core/rtw_xmit.c:		pattrib->psta = psta;
+./core/rtw_xmit.c:		RT_TRACE(_module_rtl871x_xmit_c_, _drv_alert_, ("\nupdate_attrib => get sta_info fail, ra:" MAC_FMT "\n", MAC_ARG(pattrib->ra)));
+./core/rtw_xmit.c:		DBG_871X("DBG_TX_DROP_FRAME %s get sta_info fail, ra:" MAC_FMT"\n", __FUNCTION__, MAC_ARG(pattrib->ra));
+./core/rtw_xmit.c:	pattrib->ack_policy = 0;
+./core/rtw_xmit.c:	pattrib->pkt_hdrlen = ETH_HLEN;//(pattrib->ether_type == 0x8100) ? (14 + 4 ): 14; //vlan tag
+./core/rtw_xmit.c:	pattrib->hdrlen = WLAN_HDR_A3_LEN;
+./core/rtw_xmit.c:	pattrib->subtype = WIFI_DATA_TYPE;	
+./core/rtw_xmit.c:	pattrib->priority = 0;
+./core/rtw_xmit.c:				pattrib->priority = qos_acm(pmlmepriv->acm_mask, pattrib->priority);
+./core/rtw_xmit.c:	//pattrib->priority = 5; //force to used VI queue, for testing
+./core/rtw_xmit.c:		pattrib->encrypt = 0;
+./core/rtw_xmit.c:		if((pattrib->ether_type != 0x888e) && (check_fwstate(pmlmepriv, WIFI_MP_STATE) == _FALSE))
+./core/rtw_xmit.c:			RT_TRACE(_module_rtl871x_xmit_c_,_drv_err_,("\npsta->ieee8021x_blocked == _TRUE,  pattrib->ether_type(%.4x) != 0x888e\n",pattrib->ether_type));
+./core/rtw_xmit.c:			DBG_871X("DBG_TX_DROP_FRAME %s psta->ieee8021x_blocked == _TRUE,  pattrib->ether_type(%.4x) != 0x888e\n", __FUNCTION__,pattrib->ether_type);
+./core/rtw_xmit.c:		GET_ENCRY_ALGO(psecuritypriv, psta, pattrib->encrypt, bmcast);
+./core/rtw_xmit.c:				pattrib->key_idx = (u8)psecuritypriv->dot11PrivacyKeyIndex;
+./core/rtw_xmit.c:					pattrib->key_idx = (u8)psecuritypriv->dot118021XGrpKeyid;	
+./core/rtw_xmit.c:					pattrib->key_idx = 0;
+./core/rtw_xmit.c:				pattrib->key_idx = 0;
+./core/rtw_xmit.c:	switch (pattrib->encrypt)
+./core/rtw_xmit.c:			pattrib->iv_len = 4;
+./core/rtw_xmit.c:			pattrib->icv_len = 4;
+./core/rtw_xmit.c:			pattrib->iv_len = 8;
+./core/rtw_xmit.c:			pattrib->icv_len = 4;
+./core/rtw_xmit.c:			RT_TRACE(_module_rtl871x_xmit_c_,_drv_err_,("\n pattrib->encrypt=%d  (_AES_)\n",pattrib->encrypt));
+./core/rtw_xmit.c:			pattrib->iv_len = 8;
+./core/rtw_xmit.c:			pattrib->icv_len = 8;
+./core/rtw_xmit.c:			pattrib->iv_len = 0;
+./core/rtw_xmit.c:			pattrib->icv_len = 0;
+./core/rtw_xmit.c:		  pattrib->encrypt, padapter->securitypriv.sw_encrypt));
+./core/rtw_xmit.c:	if (pattrib->encrypt &&
+./core/rtw_xmit.c:		pattrib->bswenc = _TRUE;
+./core/rtw_xmit.c:			  pattrib->encrypt, padapter->securitypriv.sw_encrypt));
+./core/rtw_xmit.c:		pattrib->bswenc = _FALSE;
+./core/rtw_xmit.c:	if((pattrib->encrypt && bmcast) || (pattrib->encrypt ==_WEP40_) || (pattrib->encrypt ==_WEP104_))
+./core/rtw_xmit.c:		pattrib->bswenc = _TRUE;//force using sw enc.
+./core/rtw_xmit.c:	sint bmcst = IS_MCAST(pattrib->ra);
+./core/rtw_xmit.c:	if(pattrib->psta)
+./core/rtw_xmit.c:		stainfo = pattrib->psta;
+./core/rtw_xmit.c:		stainfo=rtw_get_stainfo(&padapter->stapriv ,&pattrib->ra[0]);
+./core/rtw_xmit.c:	if(pattrib->encrypt ==_TKIP_)//if(psecuritypriv->dot11PrivacyAlgrthm==_TKIP_PRIVACY_) 
+./core/rtw_xmit.c:                    if(pattrib->qos_en)
+./core/rtw_xmit.c:			for(curfragnum=0;curfragnum<pattrib->nr_frags;curfragnum++){
+./core/rtw_xmit.c:				payload=payload+pattrib->hdrlen+pattrib->iv_len;
+./core/rtw_xmit.c:				RT_TRACE(_module_rtl871x_xmit_c_,_drv_err_,("curfragnum=%d pattrib->hdrlen=%d pattrib->iv_len=%d",curfragnum,pattrib->hdrlen,pattrib->iv_len));
+./core/rtw_xmit.c:				if((curfragnum+1)==pattrib->nr_frags){
+./core/rtw_xmit.c:					length=pattrib->last_txcmdsz-pattrib->hdrlen-pattrib->iv_len-( (pattrib->bswenc) ? pattrib->icv_len : 0);
+./core/rtw_xmit.c:					length=pxmitpriv->frag_len-pattrib->hdrlen-pattrib->iv_len-( (pattrib->bswenc) ? pattrib->icv_len : 0);
+./core/rtw_xmit.c:					payload=payload+length+pattrib->icv_len;
+./core/rtw_xmit.c:					RT_TRACE(_module_rtl871x_xmit_c_,_drv_err_,("curfragnum=%d length=%d pattrib->icv_len=%d",curfragnum,length,pattrib->icv_len));
+./core/rtw_xmit.c:			RT_TRACE(_module_rtl871x_xmit_c_,_drv_err_,("xmitframe_addmic: pattrib->last_txcmdsz=%d!!!\n",pattrib->last_txcmdsz));
+./core/rtw_xmit.c:			pattrib->last_txcmdsz+=8;
+./core/rtw_xmit.c:			payload=payload-pattrib->last_txcmdsz+8;
+./core/rtw_xmit.c:			for(curfragnum=0;curfragnum<pattrib->last_txcmdsz;curfragnum=curfragnum+8)
+./core/rtw_xmit.c:	//if((psecuritypriv->sw_encrypt)||(pattrib->bswenc))	
+./core/rtw_xmit.c:	if(pattrib->bswenc)
+./core/rtw_xmit.c:		switch(pattrib->encrypt){
+./core/rtw_xmit.c:	sint bmcst = IS_MCAST(pattrib->ra);
+./core/rtw_xmit.c:	if (pattrib->psta) {
+./core/rtw_xmit.c:		psta = pattrib->psta;
+./core/rtw_xmit.c:			psta = rtw_get_stainfo(&padapter->stapriv, pattrib->ra);
+./core/rtw_xmit.c:	SetFrameSubType(fctrl, pattrib->subtype);
+./core/rtw_xmit.c:	if (pattrib->subtype & WIFI_DATA_TYPE)
+./core/rtw_xmit.c:				ptdls_sta = rtw_get_stainfo(pstapriv, pattrib->dst);
+./core/rtw_xmit.c:				if((ptdls_sta!=NULL)&&(ptdls_sta->tdls_sta_state & TDLS_LINKED_STATE)&&(pattrib->ether_type!=0x0806)){
+./core/rtw_xmit.c:					_rtw_memcpy(pwlanhdr->addr1, pattrib->dst, ETH_ALEN);
+./core/rtw_xmit.c:					_rtw_memcpy(pwlanhdr->addr2, pattrib->src, ETH_ALEN);
+./core/rtw_xmit.c:					_rtw_memcpy(pwlanhdr->addr2, pattrib->src, ETH_ALEN);
+./core/rtw_xmit.c:					_rtw_memcpy(pwlanhdr->addr3, pattrib->dst, ETH_ALEN);
+./core/rtw_xmit.c:				_rtw_memcpy(pwlanhdr->addr2, pattrib->ta, ETH_ALEN);
+./core/rtw_xmit.c:				_rtw_memcpy(pwlanhdr->addr3, pattrib->dst, ETH_ALEN);
+./core/rtw_xmit.c:			_rtw_memcpy(pwlanhdr->addr1, pattrib->dst, ETH_ALEN);
+./core/rtw_xmit.c:			_rtw_memcpy(pwlanhdr->addr3, pattrib->src, ETH_ALEN);
+./core/rtw_xmit.c:			_rtw_memcpy(pwlanhdr->addr1, pattrib->dst, ETH_ALEN);
+./core/rtw_xmit.c:			_rtw_memcpy(pwlanhdr->addr2, pattrib->ta, ETH_ALEN);
+./core/rtw_xmit.c:		if(pattrib->mdata)
+./core/rtw_xmit.c:		if (pattrib->encrypt)
+./core/rtw_xmit.c:			qc = (unsigned short *)(hdr + pattrib->hdrlen - 2);
+./core/rtw_xmit.c:			if (pattrib->priority)
+./core/rtw_xmit.c:				SetPriority(qc, pattrib->priority);
+./core/rtw_xmit.c:			SetEOSP(qc, pattrib->eosp);
+./core/rtw_xmit.c:			SetAckpolicy(qc, pattrib->ack_policy);
+./core/rtw_xmit.c:				psta->sta_xmitpriv.txseq_tid[pattrib->priority]++;
+./core/rtw_xmit.c:				psta->sta_xmitpriv.txseq_tid[pattrib->priority] &= 0xFFF;
+./core/rtw_xmit.c:				pattrib->seqnum = psta->sta_xmitpriv.txseq_tid[pattrib->priority];
+./core/rtw_xmit.c:				SetSeqNum(hdr, pattrib->seqnum);
+./core/rtw_xmit.c:				if(pattrib->ht_en && psta->htpriv.ampdu_enable)
+./core/rtw_xmit.c:					if(psta->htpriv.agg_enable_bitmap & BIT(pattrib->priority))
+./core/rtw_xmit.c:					pattrib->ampdu_en = _TRUE;
+./core/rtw_xmit.c:				if(pattrib->ampdu_en == _TRUE)
+./core/rtw_xmit.c:					tx_seq = psta->BA_starting_seqctrl[pattrib->priority & 0x0f];
+./core/rtw_xmit.c:					if(SN_LESS(pattrib->seqnum, tx_seq))
+./core/rtw_xmit.c:						//DBG_871X("tx ampdu seqnum(%d) < tx_seq(%d)\n", pattrib->seqnum, tx_seq);
+./core/rtw_xmit.c:						pattrib->ampdu_en = _FALSE;//AGG BK
+./core/rtw_xmit.c:					else if(SN_EQUAL(pattrib->seqnum, tx_seq))
+./core/rtw_xmit.c:						psta->BA_starting_seqctrl[pattrib->priority & 0x0f] = (tx_seq+1)&0xfff;
+./core/rtw_xmit.c:						pattrib->ampdu_en = _TRUE;//AGG EN
+./core/rtw_xmit.c:						psta->BA_starting_seqctrl[pattrib->priority & 0x0f] = (pattrib->seqnum+1)&0xfff;
+./core/rtw_xmit.c:						pattrib->ampdu_en = _TRUE;//AGG EN
+./core/rtw_xmit.c:					if (pattrib->encrypt){
+./core/rtw_xmit.c:						pattrib->encrypt= _AES_;
+./core/rtw_xmit.c:						pattrib->iv_len=8;
+./core/rtw_xmit.c:						pattrib->icv_len=8;
+./core/rtw_xmit.c:					//pattrib->qos_en = ptdls_sta->qos_option;
+./core/rtw_xmit.c:					pattrib->ht_en = ptdls_sta->htpriv.ht_option;
+./core/rtw_xmit.c:					pattrib->raid = ptdls_sta->raid;
+./core/rtw_xmit.c:					pattrib->bwmode = ptdls_sta->htpriv.bwmode;
+./core/rtw_xmit.c:					pattrib->ch_offset = ptdls_sta->htpriv.ch_offset;
+./core/rtw_xmit.c:					pattrib->sgi= ptdls_sta->htpriv.sgi;
+./core/rtw_xmit.c:					pattrib->mac_id = ptdls_sta->mac_id;
+./core/rtw_xmit.c:	int priority = pattrib->priority;
+./core/rtw_xmit.c:	if(pattrib->psta)
+./core/rtw_xmit.c:	psta = pattrib->psta;
+./core/rtw_xmit.c:		psta=rtw_get_stainfo(&padapter->stapriv ,&pattrib->ra[0]);
+./core/rtw_xmit.c:	SetFrameSubType(fctrl, pattrib->subtype);
+./core/rtw_xmit.c:			_rtw_memcpy(pwlanhdr->addr2, pattrib->src, ETH_ALEN);
+./core/rtw_xmit.c:			_rtw_memcpy(pwlanhdr->addr3, pattrib->dst, ETH_ALEN);
+./core/rtw_xmit.c:			_rtw_memcpy(pwlanhdr->addr1, pattrib->dst, ETH_ALEN);
+./core/rtw_xmit.c:			_rtw_memcpy(pwlanhdr->addr2, pattrib->src, ETH_ALEN);
+./core/rtw_xmit.c:			if(_rtw_memcmp(pattrib->dst, baddr, ETH_ALEN) )
+./core/rtw_xmit.c:				_rtw_memcpy(pwlanhdr->addr2, pattrib->src, ETH_ALEN);
+./core/rtw_xmit.c:				_rtw_memcpy(pwlanhdr->addr3, pattrib->dst, ETH_ALEN);
+./core/rtw_xmit.c:				_rtw_memcpy(pwlanhdr->addr1, pattrib->dst, ETH_ALEN);
+./core/rtw_xmit.c:				_rtw_memcpy(pwlanhdr->addr2, pattrib->src, ETH_ALEN);
+./core/rtw_xmit.c:	if (pattrib->encrypt)
+./core/rtw_xmit.c:		qc = (unsigned short *)(hdr + pattrib->hdrlen - 2);
+./core/rtw_xmit.c:		if (pattrib->priority)
+./core/rtw_xmit.c:			SetPriority(qc, pattrib->priority);
+./core/rtw_xmit.c:		SetAckpolicy(qc, pattrib->ack_policy);
+./core/rtw_xmit.c:	psta = pattrib->psta;
+./core/rtw_xmit.c:		ptdls_sta=rtw_get_stainfo(pstapriv, pattrib->dst);
+./core/rtw_xmit.c:			ptdls_sta->sta_xmitpriv.txseq_tid[pattrib->priority]++;
+./core/rtw_xmit.c:			ptdls_sta->sta_xmitpriv.txseq_tid[pattrib->priority] &= 0xFFF;
+./core/rtw_xmit.c:			pattrib->seqnum = ptdls_sta->sta_xmitpriv.txseq_tid[pattrib->priority];
+./core/rtw_xmit.c:			SetSeqNum(hdr, pattrib->seqnum);
+./core/rtw_xmit.c:			if (pattrib->encrypt){
+./core/rtw_xmit.c:				pattrib->encrypt= _AES_;
+./core/rtw_xmit.c:				pattrib->iv_len=8;
+./core/rtw_xmit.c:				pattrib->icv_len=8;
+./core/rtw_xmit.c:		psta->sta_xmitpriv.txseq_tid[pattrib->priority]++;
+./core/rtw_xmit.c:		psta->sta_xmitpriv.txseq_tid[pattrib->priority] &= 0xFFF;
+./core/rtw_xmit.c:		pattrib->seqnum = psta->sta_xmitpriv.txseq_tid[pattrib->priority];
+./core/rtw_xmit.c:		SetSeqNum(hdr, pattrib->seqnum);
+./core/rtw_xmit.c:	s32 bmcst = IS_MCAST(pattrib->ra);
+./core/rtw_xmit.c:	if (pattrib->psta) {
+./core/rtw_xmit.c:		psta = pattrib->psta;
+./core/rtw_xmit.c:			psta = rtw_get_stainfo(&padapter->stapriv, pattrib->ra);
+./core/rtw_xmit.c:	pframe += pattrib->hdrlen;
+./core/rtw_xmit.c:	if (pattrib->iv_len)
+./core/rtw_xmit.c:			switch(pattrib->encrypt)
+./core/rtw_xmit.c:						WEP_IV(pattrib->iv, psta->dot11txpn, pattrib->key_idx);	
+./core/rtw_xmit.c:						TKIP_IV(pattrib->iv, psta->dot11txpn, pattrib->key_idx);
+./core/rtw_xmit.c:						TKIP_IV(pattrib->iv, psta->dot11txpn, 0);
+./core/rtw_xmit.c:						AES_IV(pattrib->iv, psta->dot11txpn, pattrib->key_idx);
+./core/rtw_xmit.c:						AES_IV(pattrib->iv, psta->dot11txpn, 0);
+./core/rtw_xmit.c:		_rtw_memcpy(pframe, pattrib->iv, pattrib->iv_len);
+./core/rtw_xmit.c:		pframe += pattrib->iv_len;
+./core/rtw_xmit.c:	llc_sz = rtw_put_snap(pframe, pattrib->ether_type);
+./core/rtw_xmit.c:	//pattrib->pktlen will be counted in rtw_build_tdls_ies
+./core/rtw_xmit.c:	pattrib->pktlen = 0;
+./core/rtw_xmit.c:	if ((pattrib->icv_len >0 )&& (pattrib->bswenc)) {
+./core/rtw_xmit.c:		pframe += pattrib->pktlen;
+./core/rtw_xmit.c:		_rtw_memcpy(pframe, pattrib->icv, pattrib->icv_len); 
+./core/rtw_xmit.c:		pframe += pattrib->icv_len;
+./core/rtw_xmit.c:	pattrib->nr_frags = 1;
+./core/rtw_xmit.c:	pattrib->last_txcmdsz = pattrib->hdrlen + pattrib->iv_len + llc_sz + 
+./core/rtw_xmit.c:			((pattrib->bswenc) ? pattrib->icv_len : 0) + pattrib->pktlen;
+./core/rtw_xmit.c:	len = pattrib->hdrlen + pattrib->iv_len; // WLAN Header and IV
+./core/rtw_xmit.c:	len += pattrib->pktlen;
+./core/rtw_xmit.c:	if (pattrib->encrypt == _TKIP_) len += 8; // MIC
+./core/rtw_xmit.c:	len += pattrib->icv_len; // ICV
+./core/rtw_xmit.c:	s32 bmcst = IS_MCAST(pattrib->ra);
+./core/rtw_xmit.c:	if (pattrib->psta)
+./core/rtw_xmit.c:		psta = pattrib->psta;
+./core/rtw_xmit.c:		psta = rtw_get_stainfo(&padapter->stapriv, pattrib->ra);
+./core/rtw_xmit.c:	_rtw_pktfile_read(&pktfile, NULL, pattrib->pkt_hdrlen);
+./core/rtw_xmit.c:		pframe += pattrib->hdrlen;
+./core/rtw_xmit.c:		mpdu_len -= pattrib->hdrlen;
+./core/rtw_xmit.c:		if (pattrib->iv_len)
+./core/rtw_xmit.c:			//	psta = rtw_get_stainfo(pstapriv, pattrib->ra);
+./core/rtw_xmit.c:				switch(pattrib->encrypt)
+./core/rtw_xmit.c:							WEP_IV(pattrib->iv, psta->dot11txpn, pattrib->key_idx);	
+./core/rtw_xmit.c:							TKIP_IV(pattrib->iv, psta->dot11txpn, pattrib->key_idx);
+./core/rtw_xmit.c:							TKIP_IV(pattrib->iv, psta->dot11txpn, 0);
+./core/rtw_xmit.c:							AES_IV(pattrib->iv, psta->dot11txpn, pattrib->key_idx);
+./core/rtw_xmit.c:							AES_IV(pattrib->iv, psta->dot11txpn, 0);
+./core/rtw_xmit.c:			_rtw_memcpy(pframe, pattrib->iv, pattrib->iv_len);
+./core/rtw_xmit.c:				 ("rtw_xmitframe_coalesce: keyid=%d pattrib->iv[3]=%.2x pframe=%.2x %.2x %.2x %.2x\n",
+./core/rtw_xmit.c:				  padapter->securitypriv.dot11PrivacyKeyIndex, pattrib->iv[3], *pframe, *(pframe+1), *(pframe+2), *(pframe+3)));
+./core/rtw_xmit.c:			pframe += pattrib->iv_len;
+./core/rtw_xmit.c:			mpdu_len -= pattrib->iv_len;
+./core/rtw_xmit.c:			llc_sz = rtw_put_snap(pframe, pattrib->ether_type);
+./core/rtw_xmit.c:		if ((pattrib->icv_len >0) && (pattrib->bswenc)) {
+./core/rtw_xmit.c:			mpdu_len -= pattrib->icv_len;
+./core/rtw_xmit.c:			mem_sz = _rtw_pktfile_read(&pktfile, pframe, pattrib->pktlen);
+./core/rtw_xmit.c:		if ((pattrib->icv_len >0 )&& (pattrib->bswenc)) {
+./core/rtw_xmit.c:			_rtw_memcpy(pframe, pattrib->icv, pattrib->icv_len); 
+./core/rtw_xmit.c:			pframe += pattrib->icv_len;
+./core/rtw_xmit.c:			pattrib->nr_frags = frg_inx;
+./core/rtw_xmit.c:			pattrib->last_txcmdsz = pattrib->hdrlen + pattrib->iv_len + ((pattrib->nr_frags==1)? llc_sz:0) + 
+./core/rtw_xmit.c:					((pattrib->bswenc) ? pattrib->icv_len : 0) + mem_sz;
+./core/rtw_xmit.c:		_rtw_memcpy(mem_start, pbuf_start + TXDESC_OFFSET, pattrib->hdrlen);		
+./core/rtw_xmit.c:		pattrib->vcs_mode = NONE_VCS;
+./core/rtw_xmit.c:	s32 bmcst = IS_MCAST(pattrib->ra);
+./core/rtw_xmit.c:	ori_len = BIP_AAD_SIZE+pattrib->pktlen;
+./core/rtw_xmit.c:		pframe += pattrib->pktlen;
+./core/rtw_xmit.c:		pframe = rtw_set_ie(pframe, _MME_IE_ , 16 , MME, &(pattrib->pktlen));
+./core/rtw_xmit.c:		pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_xmit.c:		frame_body_len = pattrib->pktlen - sizeof(struct rtw_ieee80211_hdr_3addr);
+./core/rtw_xmit.c:			printk("pattrib->pktlen = %d \n", pattrib->pktlen);
+./core/rtw_xmit.c:			for(pp=0;pp< pattrib->pktlen; pp++)
+./core/rtw_xmit.c:			if (pattrib->psta)
+./core/rtw_xmit.c:				psta = pattrib->psta;
+./core/rtw_xmit.c:				psta = rtw_get_stainfo(&padapter->stapriv, pattrib->ra);
+./core/rtw_xmit.c:				for(i=0; i<pattrib->pktlen; i++)
+./core/rtw_xmit.c:			if(pattrib->encrypt>0)
+./core/rtw_xmit.c:				_rtw_memcpy(pattrib->dot118021x_UncstKey.skey, psta->dot118021x_UncstKey.skey, 16);
+./core/rtw_xmit.c:			_rtw_memcpy(tmp_buf, pframe, pattrib->pktlen);
+./core/rtw_xmit.c:			pframe += pattrib->hdrlen;
+./core/rtw_xmit.c:			pattrib->iv_len = 8;
+./core/rtw_xmit.c:			pattrib->icv_len = 8;
+./core/rtw_xmit.c:			switch(pattrib->encrypt)
+./core/rtw_xmit.c:						AES_IV(pattrib->iv, psta->dot11wtxpn, 0);
+./core/rtw_xmit.c:			_rtw_memcpy(pframe, pattrib->iv, pattrib->iv_len);
+./core/rtw_xmit.c:			pframe += pattrib->iv_len;
+./core/rtw_xmit.c:			_rtw_memcpy(pframe, tmp_buf+pattrib->hdrlen, pattrib->pktlen-pattrib->hdrlen);
+./core/rtw_xmit.c:			pframe += pattrib->pktlen-pattrib->hdrlen;
+./core/rtw_xmit.c:			pattrib->pktlen += pattrib->iv_len;
+./core/rtw_xmit.c:				//for(i=0; i<pattrib->pktlen; i++)
+./core/rtw_xmit.c:			if ((pattrib->icv_len >0 )&& (pattrib->bswenc)) {
+./core/rtw_xmit.c:				_rtw_memcpy(pframe, pattrib->icv, pattrib->icv_len); 
+./core/rtw_xmit.c:				pframe += pattrib->icv_len;
+./core/rtw_xmit.c:			pattrib->pktlen += pattrib->icv_len;
+./core/rtw_xmit.c:			pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_xmit.c:				for(i=0; i<pattrib->pktlen; i++)
+./core/rtw_xmit.c:	if (pattrib->psta) {
+./core/rtw_xmit.c:		psta = pattrib->psta;		
+./core/rtw_xmit.c:		psta = rtw_get_stainfo(pstapriv, pattrib->ra);
+./core/rtw_xmit.c:	ptxservq = rtw_get_sta_pending(padapter, psta, pattrib->priority, (u8 *)(&ac_index));
+./core/rtw_xmit.c:	qsel = pattrib->priority;
+./core/rtw_xmit.c:	RT_TRACE(_module_rtl871x_xmit_c_,_drv_info_,("### do_queue_select priority=%d ,qsel = %d\n",pattrib->priority ,qsel));
+./core/rtw_xmit.c:	pattrib->qsel = qsel;
+./core/rtw_xmit.c:	ptdls_sta=rtw_get_stainfo(pstapriv, pattrib->dst);
+./core/rtw_xmit.c:		if(pattrib->triggered==1)
+./core/rtw_xmit.c:			switch(pattrib->priority)
+./core/rtw_xmit.c:	sint bmcst = IS_MCAST(pattrib->ra);
+./core/rtw_xmit.c:	if(pattrib->psta)
+./core/rtw_xmit.c:		psta = pattrib->psta;
+./core/rtw_xmit.c:		psta=rtw_get_stainfo(pstapriv, pattrib->ra);
+./core/rtw_xmit.c:	if(pattrib->triggered==1)
+./core/rtw_xmit.c:		//pattrib->triggered=0;
+./core/rtw_xmit.c:			pattrib->qsel = 0x11;//HIQ
+./core/rtw_xmit.c:			//pattrib->qsel = 0x11;//HIQ
+./core/rtw_xmit.c:				if (is_broadcast_mac_addr(pattrib->ra))
+./core/rtw_xmit.c:			switch(pattrib->priority)
+./core/rtw_xmit.c:		pattrib->triggered = 0;
+./core/rtw_xmit.c:		    ptxservq = rtw_get_sta_pending(padapter, psta, pattrib->priority, (u8 *)(&ac_index));
+./core/rtw_tdls.c:	ptdls_sta->sta_xmitpriv.txseq_tid[pattrib->priority]++;
+./core/rtw_tdls.c:	ptdls_sta->sta_xmitpriv.txseq_tid[pattrib->priority] &= 0xFFF;
+./core/rtw_tdls.c:	pattrib->seqnum = ptdls_sta->sta_xmitpriv.txseq_tid[pattrib->priority];
+./core/rtw_tdls.c:	SetSeqNum(pwlanhdr, pattrib->seqnum);
+./core/rtw_tdls.c:	pattrib->pktlen = sizeof(struct rtw_ieee80211_hdr_3addr);
+./core/rtw_tdls.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_tdls.c:	bmcast = IS_MCAST(pattrib->ra);
+./core/rtw_tdls.c:	psta = rtw_get_stainfo(pstapriv, pattrib->ra);
+./core/rtw_tdls.c:	pattrib->mac_id = psta->mac_id;
+./core/rtw_tdls.c:	pattrib->psta = psta;
+./core/rtw_tdls.c:	pattrib->ack_policy = 0;
+./core/rtw_tdls.c:	pattrib->pkt_hdrlen = ETH_HLEN;//(pattrib->ether_type == 0x8100) ? (14 + 4 ): 14; //vlan tag
+./core/rtw_tdls.c:		pattrib->priority = 1;	//tdls management frame should be AC_BK
+./core/rtw_tdls.c:		pattrib->hdrlen = WLAN_HDR_A3_QOS_LEN;
+./core/rtw_tdls.c:		pattrib->subtype = WIFI_QOS_DATA_TYPE;
+./core/rtw_tdls.c:		pattrib->hdrlen = WLAN_HDR_A3_LEN;
+./core/rtw_tdls.c:		pattrib->subtype = WIFI_DATA_TYPE;	
+./core/rtw_tdls.c:		pattrib->priority = 0;
+./core/rtw_tdls.c:		pattrib->encrypt = 0;
+./core/rtw_tdls.c:		GET_ENCRY_ALGO(psecuritypriv, psta, pattrib->encrypt, bmcast);
+./core/rtw_tdls.c:				pattrib->key_idx = (u8)psecuritypriv->dot11PrivacyKeyIndex;
+./core/rtw_tdls.c:				pattrib->key_idx = 0;
+./core/rtw_tdls.c:				pattrib->key_idx = 0;
+./core/rtw_tdls.c:	switch (pattrib->encrypt)
+./core/rtw_tdls.c:			pattrib->iv_len = 4;
+./core/rtw_tdls.c:			pattrib->icv_len = 4;
+./core/rtw_tdls.c:			pattrib->iv_len = 8;
+./core/rtw_tdls.c:			pattrib->icv_len = 4;
+./core/rtw_tdls.c:			pattrib->iv_len = 8;
+./core/rtw_tdls.c:			pattrib->icv_len = 8;
+./core/rtw_tdls.c:			pattrib->iv_len = 0;
+./core/rtw_tdls.c:			pattrib->icv_len = 0;
+./core/rtw_tdls.c:	if (pattrib->encrypt &&
+./core/rtw_tdls.c:		pattrib->bswenc = _TRUE;
+./core/rtw_tdls.c:		pattrib->bswenc = _FALSE;
+./core/rtw_tdls.c:	pattrib->qos_en = psta->qos_option;
+./core/rtw_tdls.c:	pattrib->ht_en = psta->htpriv.ht_option;
+./core/rtw_tdls.c:	pattrib->raid = psta->raid;
+./core/rtw_tdls.c:	pattrib->bwmode = psta->htpriv.bwmode;
+./core/rtw_tdls.c:	pattrib->ch_offset = psta->htpriv.ch_offset;
+./core/rtw_tdls.c:	pattrib->sgi= psta->htpriv.sgi;
+./core/rtw_tdls.c:	pattrib->ampdu_en = _FALSE;
+./core/rtw_tdls.c:	//if(pattrib->ht_en && psta->htpriv.ampdu_enable)
+./core/rtw_tdls.c:	//	if(psta->htpriv.agg_enable_bitmap & BIT(pattrib->priority))
+./core/rtw_tdls.c:	//		pattrib->ampdu_en = _TRUE;
+./core/rtw_tdls.c:						sizeof(struct rtw_ieee80211_ht_cap), (unsigned char*)&ht_capie, &(pattrib->pktlen)));
+./core/rtw_tdls.c:	return(rtw_set_ie(pframe, _SUPPORTED_CH_IE_, idx_5g, sup_ch, &(pattrib->pktlen)));
+./core/rtw_tdls.c:	pattrib->ether_type = 0x890d;
+./core/rtw_tdls.c:	pattrib->pctrl =0;
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->dst, baddr, ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->src, myid(&(padapter->eeprompriv)), ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->ra, get_bssid(pmlmepriv), ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->ta, pattrib->src, ETH_ALEN);
+./core/rtw_tdls.c:	pattrib->qsel=pattrib->priority;
+./core/rtw_tdls.c:	pattrib->ether_type = 0x890d;
+./core/rtw_tdls.c:	pattrib->pctrl =0;
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->dst, rx_pkt_pattrib->src, ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->src, myid(&(padapter->eeprompriv)), ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->ra, get_bssid(pmlmepriv), ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->ta, pattrib->src, ETH_ALEN);
+./core/rtw_tdls.c:	pattrib->qsel=pattrib->priority;
+./core/rtw_tdls.c:	pattrib->ether_type = 0x890d;
+./core/rtw_tdls.c:	pattrib->pctrl =0;		
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->dst, mac_addr, ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->src, myid(&(padapter->eeprompriv)), ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->ra, get_bssid(pmlmepriv), ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->ta, pattrib->src, ETH_ALEN);
+./core/rtw_tdls.c:	pattrib->qsel=pattrib->priority;
+./core/rtw_tdls.c:	pattrib->ether_type = 0x890d;
+./core/rtw_tdls.c:	pattrib->pctrl =0;
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->dst, mac_addr, ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->src, myid(&(padapter->eeprompriv)), ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->ra, get_bssid(pmlmepriv), ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->ta, pattrib->src, ETH_ALEN);
+./core/rtw_tdls.c:	pattrib->qsel=pattrib->priority;
+./core/rtw_tdls.c:	pattrib->ether_type = 0x890d;
+./core/rtw_tdls.c:	pattrib->pctrl =0;
+./core/rtw_tdls.c:		_rtw_memcpy(pattrib->dst, baddr, ETH_ALEN);
+./core/rtw_tdls.c:		_rtw_memcpy(pattrib->dst, mac_addr, ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->src, myid(&(padapter->eeprompriv)), ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->ra, get_bssid(pmlmepriv), ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->ta, pattrib->src, ETH_ALEN);
+./core/rtw_tdls.c:	pattrib->qsel=pattrib->priority;
+./core/rtw_tdls.c:	pattrib->ether_type = 0x890d;
+./core/rtw_tdls.c:	pattrib->pctrl =0;
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->dst, rx_pkt_pattrib->src, ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->src, myid(&(padapter->eeprompriv)), ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->ra, rx_pkt_pattrib->bssid, ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->ta, pattrib->src, ETH_ALEN);
+./core/rtw_tdls.c:	pattrib->qsel=pattrib->priority;
+./core/rtw_tdls.c:	pattrib->ether_type = 0x890d;
+./core/rtw_tdls.c:	pattrib->pctrl =0;
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->dst, rx_pkt_pattrib->src, ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->src, myid(&(padapter->eeprompriv)), ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->ra, rx_pkt_pattrib->bssid, ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->ta, pattrib->src, ETH_ALEN);
+./core/rtw_tdls.c:	pattrib->qsel=pattrib->priority;
+./core/rtw_tdls.c:	_rtw_memcpy(pwlanhdr->addr1, rx_pkt_pattrib->src, ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->dst, pwlanhdr->addr1, ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->src, pwlanhdr->addr2, ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pwlanhdr->addr3, rx_pkt_pattrib->bssid, ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->ra, pwlanhdr->addr3, ETH_ALEN);
+./core/rtw_tdls.c:	pattrib->pktlen = sizeof (struct rtw_ieee80211_hdr_3addr);
+./core/rtw_tdls.c:	pattrib->nr_frags = 1;
+./core/rtw_tdls.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./core/rtw_tdls.c:	pattrib->ether_type = 0x890d;
+./core/rtw_tdls.c:	pattrib->pctrl =0;
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->dst, ptdls_sta->hwaddr, ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->src, myid(&(padapter->eeprompriv)), ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->ra, get_bssid(pmlmepriv), ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->ta, pattrib->src, ETH_ALEN);
+./core/rtw_tdls.c:	//for tdls; pattrib->nr_frags is used to fill dialogtoken
+./core/rtw_tdls.c:	pattrib->priority = 7; 
+./core/rtw_tdls.c:	pattrib->qsel=pattrib->priority;
+./core/rtw_tdls.c:	pattrib->ether_type = 0x890d;
+./core/rtw_tdls.c:	pattrib->pctrl =0;		
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->dst, mac_addr, ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->src, myid(&(padapter->eeprompriv)), ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->ra, get_bssid(pmlmepriv), ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->ta, pattrib->src, ETH_ALEN);
+./core/rtw_tdls.c:	pattrib->qsel=pattrib->priority;
+./core/rtw_tdls.c:	pattrib->ether_type = 0x890d;
+./core/rtw_tdls.c:	pattrib->pctrl =0;		
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->dst, mac_addr, ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->src, myid(&(padapter->eeprompriv)), ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->ra, get_bssid(pmlmepriv), ETH_ALEN);
+./core/rtw_tdls.c:	_rtw_memcpy(pattrib->ta, pattrib->src, ETH_ALEN);
+./core/rtw_tdls.c:	pattrib->qsel=pattrib->priority;
+./core/rtw_tdls.c:				ptdlsinfo->ss_record.RxPWDBAll = pattrib->RxPWDBAll;
+./core/rtw_tdls.c:				if( ptdlsinfo->ss_record.RxPWDBAll < pattrib->RxPWDBAll )
+./core/rtw_tdls.c:					ptdlsinfo->ss_record.RxPWDBAll = pattrib->RxPWDBAll;
+./core/rtw_tdls.c:				if( pattrib->RxPWDBAll > ptdlsinfo->ss_record.RxPWDBAll )
+./core/rtw_tdls.c:		if( pattrib->RxPWDBAll + TDLS_SIGNAL_THRESH >= UndecoratedSmoothedPWDB);
+./core/rtw_tdls.c:			DBG_871X("pattrib->RxPWDBAll=%d, pdmpriv->UndecoratedSmoothedPWDB=%d\n", pattrib->RxPWDBAll, UndecoratedSmoothedPWDB);
+./core/rtw_tdls.c:	struct sta_info *ptdls_sta = rtw_get_stainfo(pstapriv, pattrib->src);
+./core/rtw_tdls.c:		issue_tdls_ch_switch_req(adapter, pattrib->src);
+./core/rtw_tdls.c:						issue_tdls_ch_switch_req(adapter, pattrib->src);
+./core/rtw_tdls.c:	struct sta_info *ptdls_sta=rtw_get_stainfo( (&padapter->stapriv) , pattrib->dst);
+./core/rtw_tdls.c:	if(pattrib->encrypt){
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(payload_type), &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(action), &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(ptdls_sta->dialog), &(pattrib->pktlen));
+./core/rtw_tdls.c:	if(pattrib->encrypt)
+./core/rtw_tdls.c:	pattrib->pktlen += 2;
+./core/rtw_tdls.c:		pframe = rtw_set_ie(pframe, _SUPPORTEDRATES_IE_ , 8, bssrate, &(pattrib->pktlen));
+./core/rtw_tdls.c:		pframe = rtw_set_ie(pframe, _SUPPORTEDRATES_IE_ , bssrate_len , bssrate, &(pattrib->pktlen));
+./core/rtw_tdls.c:		pframe = rtw_set_ie(pframe, _EXT_SUPPORTEDRATES_IE_ , (bssrate_len - 8), (bssrate + 8), &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_ie( pframe, _SRC_IE_, 16, TDLS_SRC, &(pattrib->pktlen));
+./core/rtw_tdls.c:	if(pattrib->encrypt)
+./core/rtw_tdls.c:		pframe = rtw_set_ie(pframe, _RSN_IE_2_, 20, TDLS_RSNIE, &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_ie(pframe, _EXT_CAP_IE_ , 5, TDLS_EXT_CAPIE, &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_ie(pframe, _VENDOR_SPECIFIC_IE_, 7, TDLS_WMMIE,  &(pattrib->pktlen));
+./core/rtw_tdls.c:	if(pattrib->encrypt){
+./core/rtw_tdls.c:		pattrib->pktlen += 84;
+./core/rtw_tdls.c:		pframe = rtw_set_ie(pframe, _TIMEOUT_ITVL_IE_, 5, timeout_itvl,  &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_ie(pframe, EID_BSSCoexistence,  1, &iedata, &(pattrib->pktlen));
+./core/rtw_tdls.c:	_rtw_memcpy(link_id_addr, pattrib->ra, 6);
+./core/rtw_tdls.c:	_rtw_memcpy((link_id_addr+6), pattrib->src, 6);
+./core/rtw_tdls.c:	_rtw_memcpy((link_id_addr+12), pattrib->dst, 6);
+./core/rtw_tdls.c:	pframe = rtw_set_ie(pframe, _LINK_ID_IE_,  18, link_id_addr, &(pattrib->pktlen));
+./core/rtw_tdls.c:	wfd_ie_tdls( padapter, pframe, &(pattrib->pktlen) );
+./core/rtw_tdls.c:	ptdls_sta = rtw_get_stainfo( &(padapter->stapriv) , pattrib->dst);
+./core/rtw_tdls.c:	if(pattrib->encrypt){
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(payload_type), &(pattrib->pktlen));	
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(action), &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 2, (u8 *)&ptdls_sta->stat_code, &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(ptdls_sta->dialog), &(pattrib->pktlen));
+./core/rtw_tdls.c:	if(pattrib->encrypt )
+./core/rtw_tdls.c:	pattrib->pktlen += 2;
+./core/rtw_tdls.c:		pframe = rtw_set_ie(pframe, _SUPPORTEDRATES_IE_ , 8, bssrate, &(pattrib->pktlen));
+./core/rtw_tdls.c:		pframe = rtw_set_ie(pframe, _SUPPORTEDRATES_IE_ , bssrate_len , bssrate, &(pattrib->pktlen));
+./core/rtw_tdls.c:		pframe = rtw_set_ie(pframe, _EXT_SUPPORTEDRATES_IE_ , (bssrate_len - 8), (bssrate + 8), &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_ie(pframe, _SRC_IE_ , 16, TDLS_SRC, &(pattrib->pktlen));
+./core/rtw_tdls.c:	if(pattrib->encrypt){
+./core/rtw_tdls.c:		pframe = rtw_set_ie(pframe, _RSN_IE_2_, 20, TDLS_RSNIE, &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_ie(pframe, _EXT_CAP_IE_ , 5, TDLS_EXT_CAPIE, &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_ie(pframe, _VENDOR_SPECIFIC_IE_, 7, TDLS_WMMIE,  &(pattrib->pktlen));
+./core/rtw_tdls.c:	if(pattrib->encrypt){
+./core/rtw_tdls.c:		pattrib->pktlen += 84;
+./core/rtw_tdls.c:		pframe = rtw_set_ie(pframe, _TIMEOUT_ITVL_IE_, 5, timeout_itvl,  &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_ie(pframe, EID_BSSCoexistence,  1, &iedata, &(pattrib->pktlen));
+./core/rtw_tdls.c:	_rtw_memcpy(link_id_addr, pattrib->ra, 6);
+./core/rtw_tdls.c:	_rtw_memcpy((link_id_addr+6), pattrib->dst, 6);
+./core/rtw_tdls.c:	_rtw_memcpy((link_id_addr+12), pattrib->src, 6);
+./core/rtw_tdls.c:	pframe = rtw_set_ie(pframe, _LINK_ID_IE_,  18, link_id_addr, &(pattrib->pktlen));
+./core/rtw_tdls.c:	if(pattrib->encrypt)
+./core/rtw_tdls.c:	wfd_ie_tdls( padapter, pframe, &(pattrib->pktlen) );
+./core/rtw_tdls.c:	struct sta_info *ptdls_sta=rtw_get_stainfo( (&padapter->stapriv) , pattrib->dst);
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(payload_type), &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(action), &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 2, (u8 *)&ptdls_sta->stat_code, &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(ptdls_sta->dialog), &(pattrib->pktlen));
+./core/rtw_tdls.c:	if(pattrib->encrypt){
+./core/rtw_tdls.c:		pframe = rtw_set_ie(pframe, _RSN_IE_2_, 20, TDLS_RSNIE, &(pattrib->pktlen));
+./core/rtw_tdls.c:	if(pattrib->encrypt){
+./core/rtw_tdls.c:		pattrib->pktlen += 84;
+./core/rtw_tdls.c:		pframe = rtw_set_ie(pframe, _TIMEOUT_ITVL_IE_, 5, timeout_itvl,  &(pattrib->pktlen));
+./core/rtw_tdls.c:	_rtw_memcpy(link_id_addr, pattrib->ra, 6);
+./core/rtw_tdls.c:	_rtw_memcpy((link_id_addr+6), pattrib->src, 6);
+./core/rtw_tdls.c:	_rtw_memcpy((link_id_addr+12), pattrib->dst, 6);
+./core/rtw_tdls.c:	pframe = rtw_set_ie(pframe, _LINK_ID_IE_,  18, link_id_addr, &(pattrib->pktlen));
+./core/rtw_tdls.c:	if(pattrib->encrypt)
+./core/rtw_tdls.c:	struct sta_info *ptdls_sta = rtw_get_stainfo( &(padapter->stapriv) , pattrib->dst);
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(payload_type), &(pattrib->pktlen));	
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(action), &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, (u8 *)&ptdls_sta->stat_code, &(pattrib->pktlen));
+./core/rtw_tdls.c:		_rtw_memcpy(link_id_addr, pattrib->ra, 6);
+./core/rtw_tdls.c:		_rtw_memcpy((link_id_addr+6), pattrib->src, 6);
+./core/rtw_tdls.c:		_rtw_memcpy((link_id_addr+12), pattrib->dst, 6);
+./core/rtw_tdls.c:		_rtw_memcpy(link_id_addr, pattrib->ra, 6);
+./core/rtw_tdls.c:		_rtw_memcpy((link_id_addr+6), pattrib->dst, 6);
+./core/rtw_tdls.c:		_rtw_memcpy((link_id_addr+12), pattrib->src, 6);
+./core/rtw_tdls.c:	pframe = rtw_set_ie(pframe, _LINK_ID_IE_,  18, link_id_addr, &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(payload_type), &(pattrib->pktlen));		
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(action), &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(dialogtoken), &(pattrib->pktlen));
+./core/rtw_tdls.c:	_rtw_memcpy(link_id_addr, pattrib->ra, 6);
+./core/rtw_tdls.c:	_rtw_memcpy((link_id_addr+6), pattrib->src, 6);
+./core/rtw_tdls.c:	_rtw_memcpy((link_id_addr+12), pattrib->dst, 6);
+./core/rtw_tdls.c:	pframe = rtw_set_ie(pframe, _LINK_ID_IE_,  18, link_id_addr, &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(action), &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(dialog), &(pattrib->pktlen));
+./core/rtw_tdls.c:	if(pattrib->encrypt)
+./core/rtw_tdls.c:	pattrib->pktlen += 2;
+./core/rtw_tdls.c:		pframe = rtw_set_ie(pframe, _SUPPORTEDRATES_IE_ , 8, bssrate, &(pattrib->pktlen));
+./core/rtw_tdls.c:		pframe = rtw_set_ie(pframe, _SUPPORTEDRATES_IE_ , bssrate_len , bssrate, &(pattrib->pktlen));
+./core/rtw_tdls.c:		pframe = rtw_set_ie(pframe, _EXT_SUPPORTEDRATES_IE_ , (bssrate_len - 8), (bssrate + 8), &(pattrib->pktlen));
+./core/rtw_tdls.c:	if(pattrib->encrypt)
+./core/rtw_tdls.c:		pframe = rtw_set_ie(pframe, _RSN_IE_2_, 20, TDLS_RSNIE, &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_ie(pframe, _EXT_CAP_IE_ , 5, TDLS_EXT_CAPIE, &(pattrib->pktlen));
+./core/rtw_tdls.c:	if(pattrib->encrypt){
+./core/rtw_tdls.c:		pattrib->pktlen += 84;
+./core/rtw_tdls.c:		pframe = rtw_set_ie(pframe, _TIMEOUT_ITVL_IE_, 5, timeout_itvl,  &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_ie(pframe, EID_BSSCoexistence, 1, &iedata, &(pattrib->pktlen));
+./core/rtw_tdls.c:	_rtw_memcpy(link_id_addr, pattrib->ra, 6);
+./core/rtw_tdls.c:	_rtw_memcpy((link_id_addr+6), pattrib->dst, 6);
+./core/rtw_tdls.c:	_rtw_memcpy((link_id_addr+12), pattrib->src, 6);
+./core/rtw_tdls.c:	pframe = rtw_set_ie(pframe, _LINK_ID_IE_, 18, link_id_addr, &(pattrib->pktlen));
+./core/rtw_tdls.c:	struct sta_info *ptdls_sta = rtw_get_stainfo(pstapriv, pattrib->dst);
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(payload_type), &(pattrib->pktlen));	
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(action), &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(ptdls_sta->dialog), &(pattrib->pktlen));
+./core/rtw_tdls.c:	_rtw_memcpy(link_id_addr, pattrib->ra, 6);
+./core/rtw_tdls.c:	_rtw_memcpy((link_id_addr+6), pattrib->src, 6);
+./core/rtw_tdls.c:	_rtw_memcpy((link_id_addr+12), pattrib->dst, 6);
+./core/rtw_tdls.c:	pframe = rtw_set_ie(pframe, _LINK_ID_IE_,  18, link_id_addr, &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_ie(pframe, _PTI_BUFFER_STATUS_, 1, &AC_queue, &(pattrib->pktlen));
+./core/rtw_tdls.c:	struct sta_info *ptdls_sta = rtw_get_stainfo(pstapriv, pattrib->dst);
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(payload_type), &(pattrib->pktlen));	
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(action), &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(ptdlsinfo->candidate_ch), &(pattrib->pktlen));
+./core/rtw_tdls.c:	_rtw_memcpy(link_id_addr, pattrib->ra, 6);
+./core/rtw_tdls.c:	_rtw_memcpy((link_id_addr+6), pattrib->src, 6);
+./core/rtw_tdls.c:	_rtw_memcpy((link_id_addr+12), pattrib->dst, 6);
+./core/rtw_tdls.c:	pframe = rtw_set_ie(pframe, _LINK_ID_IE_,  18, link_id_addr, &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_ie(pframe, _CH_SWITCH_TIMING_,  4, ch_switch_timing, &(pattrib->pktlen));
+./core/rtw_tdls.c:	struct sta_info *ptdls_sta = rtw_get_stainfo(pstapriv, pattrib->dst);
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(payload_type), &(pattrib->pktlen));	
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(action), &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 2, (u8 *)&ptdls_sta->stat_code, &(pattrib->pktlen));
+./core/rtw_tdls.c:	_rtw_memcpy(link_id_addr, pattrib->ra, 6);
+./core/rtw_tdls.c:	_rtw_memcpy((link_id_addr+6), pattrib->src, 6);
+./core/rtw_tdls.c:	_rtw_memcpy((link_id_addr+12), pattrib->dst, 6);
+./core/rtw_tdls.c:	pframe = rtw_set_ie(pframe, _LINK_ID_IE_,  18, link_id_addr, &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_ie(pframe, _CH_SWITCH_TIMING_,  4, ch_switch_timing, &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(payload_type), &(pattrib->pktlen));		
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 3, WFA_OUI, &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(probe_req), &(pattrib->pktlen));
+./core/rtw_tdls.c:		pattrib->pktlen += wfdielen;
+./core/rtw_tdls.c:		pattrib->pktlen += wfdielen;
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(payload_type), &(pattrib->pktlen));		
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 3, WFA_OUI, &(pattrib->pktlen));
+./core/rtw_tdls.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(probe_rsp), &(pattrib->pktlen));
+./core/rtw_tdls.c:		pattrib->pktlen += wfdielen;
+./core/rtw_tdls.c:		pattrib->pktlen += wfdielen;
+./core/rtw_mp.c:	pattrib->ether_type = 0x8712;
+./core/rtw_mp.c:	//_rtw_memcpy(pattrib->src, padapter->eeprompriv.mac_addr, ETH_ALEN);
+./core/rtw_mp.c://	_rtw_memcpy(pattrib->ta, pattrib->src, ETH_ALEN);
+./core/rtw_mp.c:	_rtw_memset(pattrib->dst, 0xFF, ETH_ALEN);
+./core/rtw_mp.c://	pattrib->pctrl = 0;
+./core/rtw_mp.c://	pattrib->dhcp_pkt = 0;
+./core/rtw_mp.c://	pattrib->pktlen = 0;
+./core/rtw_mp.c:	pattrib->ack_policy = 0;
+./core/rtw_mp.c://	pattrib->pkt_hdrlen = ETH_HLEN;
+./core/rtw_mp.c:	pattrib->hdrlen = WLAN_HDR_A3_LEN;
+./core/rtw_mp.c:	pattrib->subtype = WIFI_DATA;
+./core/rtw_mp.c:	pattrib->priority = 0;
+./core/rtw_mp.c:	pattrib->qsel = pattrib->priority;
+./core/rtw_mp.c:	pattrib->nr_frags = 1;
+./core/rtw_mp.c:	pattrib->encrypt = 0;
+./core/rtw_mp.c:	pattrib->bswenc = _FALSE;
+./core/rtw_mp.c:	pattrib->qos_en = _FALSE;
+./core/rtw_mp.c:	_rtw_memcpy(pattrib->src, padapter->eeprompriv.mac_addr, ETH_ALEN);
+./core/rtw_mp.c:	_rtw_memcpy(pattrib->ta, pattrib->src, ETH_ALEN);
+./core/rtw_mp.c:	_rtw_memcpy(pattrib->ra, pattrib->dst, ETH_ALEN);
+./core/rtw_mp.c:	bmcast = IS_MCAST(pattrib->ra);
+./core/rtw_mp.c:		pattrib->mac_id = 1;
+./core/rtw_mp.c:		pattrib->psta = rtw_get_bcmc_stainfo(padapter);
+./core/rtw_mp.c:		pattrib->mac_id = 0;
+./core/rtw_mp.c:		pattrib->psta = rtw_get_stainfo(&padapter->stapriv, get_bssid(&padapter->mlmepriv));
+./core/rtw_mp.c:	pattrib->last_txcmdsz = pattrib->hdrlen + pattrib->pktlen;
+./core/rtw_mp.c:	pkt_size = pattrib->last_txcmdsz;
+./core/rtw_mp.c:	desc->txdw1 |= cpu_to_le32((pattrib->mac_id) & 0x1F); //CAM_ID(MAC_ID)
+./core/rtw_mp.c:	desc->txdw1 |= cpu_to_le32((pattrib->qsel << QSEL_SHT) & 0x00001F00); // Queue Select, TID
+./core/rtw_mp.c:	desc->txdw1 |= cpu_to_le32((pattrib->raid << Rate_ID_SHT) & 0x000F0000); // Rate Adaptive ID
+./core/rtw_mp.c:	//desc->txdw3 |= cpu_to_le32((pattrib->seqnum << SEQ_SHT) & 0xffff0000);
+./core/rtw_mp.c:	SetFrameSubType(&hdr->frame_ctl, pattrib->subtype);
+./core/rtw_mp.c:	_rtw_memcpy(hdr->addr1, pattrib->dst, ETH_ALEN); // DA
+./core/rtw_mp.c:	_rtw_memcpy(hdr->addr2, pattrib->src, ETH_ALEN); // SA
+./core/rtw_mp.c:	ptr = pkt_start + pattrib->hdrlen;
+./core/rtw_mlme.c:		//DBG_871X("Total SQ=%d  pattrib->signal_qual= %d\n", padapter->recvpriv.signal_qual_data.total_val, src->Rssi);
+./core/rtw_mlme.c:	s32 bmcst = IS_MCAST(pattrib->ra);
+./core/rtw_mlme.c:	priority = pattrib->priority;
+./core/rtw_mlme.c:	if (pattrib->psta)
+./core/rtw_mlme.c:		psta = pattrib->psta;
+./core/rtw_mlme.c:		psta = rtw_get_stainfo(&padapter->stapriv, pattrib->ra);
+./core/rtw_mlme.c:			rtw_addbareq_cmd(padapter,(u8) priority, pattrib->ra);
+./core/rtw_iol.c:	pattrib->qsel = 0x10;
+./core/rtw_iol.c:	pattrib->pktlen = pattrib->last_txcmdsz = 0;
+./core/rtw_iol.c:		pattrib->qsel = 0x10;
+./core/rtw_iol.c:		pattrib->pktlen = pattrib->last_txcmdsz = 0;
+./core/rtw_iol.c:	ori_len = buf_offset+pattrib->pktlen;
+./core/rtw_iol.c:	_rtw_memcpy(xmit_frame->buf_addr + buf_offset + pattrib->pktlen, IOL_cmds, cmd_len);
+./core/rtw_iol.c:	pattrib->pktlen += cmd_len;
+./core/rtw_iol.c:	pattrib->last_txcmdsz += cmd_len;
+./core/rtw_iol.c:	//DBG_871X("%s ori:%u + cmd_len:%u = %u\n", __FUNCTION__, ori_len, cmd_len, buf_offset+pattrib->pktlen);
+./core/rtw_iol.c:	ori_len = buf_offset+pattrib->pktlen;
+./core/rtw_iol.c:	_rtw_memcpy(xmit_frame->buf_addr + buf_offset + pattrib->pktlen, (u8*)&end_cmd, 8);
+./core/rtw_iol.c:	pattrib->pktlen += 8;
+./core/rtw_iol.c:	pattrib->last_txcmdsz += 8;
+./core/rtw_iol.c:	//DBG_871X("%s ori:%u + 8 = %u\n", __FUNCTION__ , ori_len, buf_offset+pattrib->pktlen);
+./core/rtw_mp_ioctl.c:			pattrib->pktlen = pparm->length;
+./core/rtw_mp_ioctl.c:			_rtw_memcpy(pattrib->dst, pparm->da, ETH_ALEN);
+./core/rtw_mp_ioctl.c:	pattrib->pktlen = pmp_xmitpkt->len;
+./core/rtw_mp_ioctl.c:	pattrib->ether_type = ntohs(pethhdr->h_proto);
+./core/rtw_mp_ioctl.c:	pattrib->hdrlen = 24;
+./core/rtw_mp_ioctl.c:	pattrib->nr_frags = 1;
+./core/rtw_mp_ioctl.c:	pattrib->priority = 0;
+./core/rtw_mp_ioctl.c:		pattrib->mac_id = 4;
+./core/rtw_mp_ioctl.c:		pattrib->mac_id = 5;
+./core/rtw_mp_ioctl.c:	pattrib->mac_id = 5;
+./core/rtw_mp_ioctl.c:	pframe += pattrib->hdrlen;
+./core/rtw_mp_ioctl.c:	llc_sz= rtw_put_snap(pframe, pattrib->ether_type);
+./core/rtw_mp_ioctl.c:	pattrib->last_txcmdsz = pattrib->hdrlen + llc_sz + payload_len;
+./core/rtw_mp_ioctl.c:	DEBUG_INFO(("issuing mp_xmit_frame, tx_len=%d, ether_type=0x%x\n", pattrib->last_txcmdsz, pattrib->ether_type));
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:	switch(pattrib->qsel)
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:	if ((pattrib->encrypt > 0) && !pattrib->bswenc)
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		switch (pattrib->encrypt)
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:	//DBG_8192C("cvs_mode=%d\n", pattrib->vcs_mode);	
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:	switch(pattrib->vcs_mode)
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:	if(pattrib->vcs_mode) {
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		if(pattrib->ht_en)
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:			*pdw |= (pattrib->bwmode&HT_CHANNEL_WIDTH_40)?	cpu_to_le32(BIT(27)):0;
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:			if(pattrib->ch_offset == HAL_PRIME_CHNL_OFFSET_LOWER)
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:			else if(pattrib->ch_offset == HAL_PRIME_CHNL_OFFSET_UPPER)
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:			else if(pattrib->ch_offset == HAL_PRIME_CHNL_OFFSET_DONT_CARE)
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:	//DBG_8192C("bwmode=%d, ch_off=%d\n", pattrib->bwmode, pattrib->ch_offset);
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:	if(pattrib->ht_en)
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		*pdw |= (pattrib->bwmode&HT_CHANNEL_WIDTH_40)?	cpu_to_le32(BIT(25)):0;
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		if(pattrib->ch_offset == HAL_PRIME_CHNL_OFFSET_LOWER)
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		else if(pattrib->ch_offset == HAL_PRIME_CHNL_OFFSET_UPPER)
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		else if(pattrib->ch_offset == HAL_PRIME_CHNL_OFFSET_DONT_CARE)
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:	sint	bmcst = IS_MCAST(pattrib->ra);
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		ptxdesc->txdw1 |= cpu_to_le32(pattrib->mac_id&0x1f);
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		qsel = (uint)(pattrib->qsel & 0x0000001f);
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		ptxdesc->txdw1 |= cpu_to_le32((pattrib->raid<< 16) & 0x000f0000);
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		if(pattrib->ampdu_en==_TRUE)
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		ptxdesc->txdw3 |= cpu_to_le32((pattrib->seqnum<<16)&0xffff0000);
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		if (pattrib->qos_en)
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		if ((pattrib->ether_type != 0x888e) && (pattrib->ether_type != 0x0806) && (pattrib->dhcp_pkt != 1))
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:			data_rate = pdmpriv->INIDATA_RATE[pattrib->mac_id];
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		if ( pattrib->hw_tcp_csum == 1 ) {
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:			u8 ip_hdr_offset = 32 + pattrib->hdrlen + pattrib->iv_len + 8;
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		ptxdesc->txdw1 |= cpu_to_le32(pattrib->mac_id&0x1f);
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		qsel = (uint)(pattrib->qsel&0x0000001f);
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		ptxdesc->txdw1 |= cpu_to_le32((pattrib->raid<< 16) & 0x000f0000);
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		ptxdesc->txdw3 |= cpu_to_le32((pattrib->seqnum<<16)&0xffff0000);
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		if(pattrib->retry_ctrl == _TRUE)
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		if((padapter->proximity.proxim_on==_TRUE)&&(pattrib->intel_proxim==_TRUE)){
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:			printk("\n %s pattrib->rate=%d\n",__FUNCTION__,pattrib->rate);
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:			ptxdesc->txdw5 |= cpu_to_le32( pattrib->rate);
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		ptxdesc->txdw3 |= cpu_to_le32((pattrib->seqnum<<16)&0xffff0000);
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:	if(!pattrib->qos_en)
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:	for (t = 0; t < pattrib->nr_frags; t++)
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		if (t != (pattrib->nr_frags - 1))
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:			RT_TRACE(_module_rtl871x_xmit_c_,_drv_err_,("pattrib->nr_frags=%d\n", pattrib->nr_frags));
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:			sz = sz - 4 - (psecuritypriv->sw_encrypt ? 0 : pattrib->icv_len);					
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:			sz = pattrib->last_txcmdsz;
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		//DBG_8192C("rtw_write_port, w_sz=%d, sz=%d, txdesc_sz=%d, tid=%d\n", w_sz, sz, w_sz-sz, pattrib->priority);      
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:	len = pattrib->hdrlen + pattrib->iv_len +
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		pattrib->pktlen +
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:		((pattrib->bswenc) ? pattrib->icv_len : 0);
+./hal/rtl8192c/usb/rtl8192cu_xmit.c:	if(pattrib->encrypt ==_TKIP_)
+./hal/rtl8192c/usb/usb_ops_linux.c:				if (pattrib->qos)	//	Qos data, wireless lan header length is 26
+./hal/rtl8192c/usb/usb_ops_linux.c:				skb_len = pattrib->pkt_len;
+./hal/rtl8192c/usb/usb_ops_linux.c:				if((pattrib->mfrag == 1)&&(pattrib->frag_num == 0)){
+./hal/rtl8192c/usb/usb_ops_linux.c:		if(pattrib->physt)
+./hal/rtl8192c/usb/usb_ops_linux.c:		pkt_offset = RXDESC_SIZE + pattrib->drvinfo_sz + pattrib->shift_sz + pattrib->pkt_len;
+./hal/rtl8192c/usb/usb_ops_linux.c:		if((pattrib->pkt_len<=0) || (pkt_offset>transfer_len))
+./hal/rtl8192c/usb/usb_ops_linux.c:		if (pattrib->qos)	//	Qos data, wireless lan header length is 26
+./hal/rtl8192c/usb/usb_ops_linux.c:		skb_len = pattrib->pkt_len;
+./hal/rtl8192c/usb/usb_ops_linux.c:		if((pattrib->mfrag == 1)&&(pattrib->frag_num == 0)){
+./hal/rtl8192c/usb/usb_ops_linux.c:			_rtw_memcpy(pkt_copy->data, (pbuf + pattrib->shift_sz + pattrib->drvinfo_sz + RXDESC_SIZE), skb_len);
+./hal/rtl8192c/usb/usb_ops_linux.c:		if(pattrib->physt)
+./hal/rtl8192c/usb/usb_ops_linux.c:		pkt_offset = RXDESC_SIZE + pattrib->drvinfo_sz + pattrib->shift_sz + pattrib->pkt_len;
+./hal/rtl8192c/usb/usb_ops_linux.c:		if((pattrib->pkt_len<=0) || (pkt_offset>transfer_len))
+./hal/rtl8192c/usb/usb_ops_linux.c:		if (pattrib->qos)	//	Qos data, wireless lan header length is 26
+./hal/rtl8192c/usb/usb_ops_linux.c:		skb_len = pattrib->pkt_len;
+./hal/rtl8192c/usb/usb_ops_linux.c:		if((pattrib->mfrag == 1)&&(pattrib->frag_num == 0)){
+./hal/rtl8192c/usb/usb_ops_linux.c:			_rtw_memcpy(pkt_copy->data, (pbuf + pattrib->shift_sz + pattrib->drvinfo_sz + RXDESC_SIZE), skb_len);
+./hal/rtl8192c/rtl8192c_cmd.c:	pattrib->qsel = 0x10;
+./hal/rtl8192c/rtl8192c_cmd.c:	pattrib->pktlen = pattrib->last_txcmdsz = TotalPacketLen - TxDescLen;
+./hal/rtl8192c/rtl8192c_rxdesc.c:	bcck_rate=(pattrib->mcs_rate<=3? 1:0);
+./hal/rtl8192c/rtl8192c_rxdesc.c:		pattrib->RxPWDBAll = pwdb_all;	//for DIG/rate adaptive
+./hal/rtl8192c/rtl8192c_rxdesc.c:		pattrib->RecvSignalPower = rx_pwr_all;	//dBM
+./hal/rtl8192c/rtl8192c_rxdesc.c:			pattrib->signal_qual=sq;
+./hal/rtl8192c/rtl8192c_rxdesc.c:			pattrib->rx_mimo_signal_qual[0]=sq;
+./hal/rtl8192c/rtl8192c_rxdesc.c:			pattrib->rx_mimo_signal_qual[1]=(-1);
+./hal/rtl8192c/rtl8192c_rxdesc.c:			pattrib->rx_rssi[i] = rssi = query_rx_pwr_percentage(rx_pwr[i]);
+./hal/rtl8192c/rtl8192c_rxdesc.c:			pattrib->rx_snr[i]=pOfdm_buf->rxsnr_X[i];
+./hal/rtl8192c/rtl8192c_rxdesc.c:		pattrib->RxPWDBAll = pwdb_all;	//for DIG/rate adaptive
+./hal/rtl8192c/rtl8192c_rxdesc.c:		pattrib->RecvSignalPower = rx_pwr_all;//dBM
+./hal/rtl8192c/rtl8192c_rxdesc.c:			if(pattrib->rxht &&  pattrib->mcs_rate >=20 && pattrib->mcs_rate<=27)
+./hal/rtl8192c/rtl8192c_rxdesc.c:					pattrib->mcs_rate, pOfdm_buf->rxevm_X[i], "%",evm));
+./hal/rtl8192c/rtl8192c_rxdesc.c:						pattrib->signal_qual = (u8)(evm & 0xff);
+./hal/rtl8192c/rtl8192c_rxdesc.c:					pattrib->rx_mimo_signal_qual[i] = (u8)(evm & 0xff);
+./hal/rtl8192c/rtl8192c_rxdesc.c:		pattrib->signal_strength=(u8)signal_scale_mapping(padapter, pwdb_all);
+./hal/rtl8192c/rtl8192c_rxdesc.c:			pattrib->signal_strength= (u8)(signal_scale_mapping(padapter, total_rssi/=rf_rx_num));
+./hal/rtl8192c/rtl8192c_rxdesc.c:	//DBG_8192C("%s,rx_pwr_all(%d),RxPWDBAll(%d)\n",__FUNCTION__,rx_pwr_all,pattrib->RxPWDBAll);
+./hal/rtl8192c/rtl8192c_rxdesc.c:	//DBG_8192C("process_rssi=> pattrib->rssil(%d) signal_strength(%d)\n ",pattrib->RecvSignalPower,pattrib->signal_strength);
+./hal/rtl8192c/rtl8192c_rxdesc.c:		signal_stat->total_val  += pattrib->signal_strength;
+./hal/rtl8192c/rtl8192c_rxdesc.c:		padapter->recvpriv.signal_strength_data.total_val  +=pattrib->signal_strength;
+./hal/rtl8192c/rtl8192c_rxdesc.c:		padapter->recvpriv.signal_strength_data.elements[padapter->recvpriv.signal_strength_data.index++] = pattrib->signal_strength;
+./hal/rtl8192c/rtl8192c_rxdesc.c:	u8 isCCKrate=(pattrib->mcs_rate<=3? 1:0);
+./hal/rtl8192c/rtl8192c_rxdesc.c:			UndecoratedSmoothedPWDB = pattrib->RxPWDBAll;
+./hal/rtl8192c/rtl8192c_rxdesc.c:		if(pattrib->RxPWDBAll > (u32)UndecoratedSmoothedPWDB)
+./hal/rtl8192c/rtl8192c_rxdesc.c:					(pattrib->RxPWDBAll)) /(Rx_Smooth_Factor);
+./hal/rtl8192c/rtl8192c_rxdesc.c:					(pattrib->RxPWDBAll)) /(Rx_Smooth_Factor);
+./hal/rtl8192c/rtl8192c_rxdesc.c:			UndecoratedSmoothedCCK = pattrib->RxPWDBAll;
+./hal/rtl8192c/rtl8192c_rxdesc.c:		if(pattrib->RxPWDBAll > (u32)UndecoratedSmoothedCCK)
+./hal/rtl8192c/rtl8192c_rxdesc.c:					(pattrib->RxPWDBAll)) /(Rx_Smooth_Factor);
+./hal/rtl8192c/rtl8192c_rxdesc.c:					(pattrib->RxPWDBAll)) /(Rx_Smooth_Factor);
+./hal/rtl8192c/rtl8192c_rxdesc.c:	//DBG_8192C("process_link_qual=> pattrib->signal_qual(%d)\n ",pattrib->signal_qual);
+./hal/rtl8192c/rtl8192c_rxdesc.c:	signal_stat->total_val  += pattrib->signal_qual;
+./hal/rtl8192c/rtl8192c_rxdesc.c:	if(pattrib->signal_qual != 0)
+./hal/rtl8192c/rtl8192c_rxdesc.c:			padapter->recvpriv.signal_qual_data.total_val += pattrib->signal_qual;
+./hal/rtl8192c/rtl8192c_rxdesc.c:			padapter->recvpriv.signal_qual_data.elements[padapter->recvpriv.signal_qual_data.index++] = pattrib->signal_qual;
+./hal/rtl8192c/rtl8192c_rxdesc.c:			RT_TRACE(_module_rtl871x_recv_c_,_drv_info_,("Total SQ=%d  pattrib->signal_qual= %d\n", padapter->recvpriv.signal_qual_data.total_val, pattrib->signal_qual));
+./hal/rtl8192c/rtl8192c_rxdesc.c:		RT_TRACE(_module_rtl871x_recv_c_,_drv_err_,(" pattrib->signal_qual =%d\n", pattrib->signal_qual));
+./hal/rtl8192c/rtl8192c_rxdesc.c:	if((pattrib->physt) && (pphy_info != NULL))
+./hal/rtl8192c/rtl8192c_rxdesc.c:		bPacketMatchBSSID = ((!IsFrameTypeCtrl(precvframe->u.hdr.rx_data)) && !(pattrib->icv_err) && !(pattrib->crc_err) &&
+./hal/rtl8192c/rtl8192c_rxdesc.c:				psta->rssi = pattrib->RecvSignalPower;
+./hal/rtl8192c/rtl8192c_rxdesc.c:	pattrib->physt = (u8)((le32_to_cpu(pdesc->rxdw0) >> 26) & 0x1);
+./hal/rtl8192c/rtl8192c_rxdesc.c:	pattrib->pkt_len =  (u16)(le32_to_cpu(pdesc->rxdw0)&0x00003fff);
+./hal/rtl8192c/rtl8192c_rxdesc.c:	pattrib->drvinfo_sz = (u8)((le32_to_cpu(pdesc->rxdw0) >> 16) & 0xf) * 8;//uint 2^3 = 8 bytes
+./hal/rtl8192c/rtl8192c_rxdesc.c:	pattrib->shift_sz = (u8)((le32_to_cpu(pdesc->rxdw0) >> 24) & 0x3);
+./hal/rtl8192c/rtl8192c_rxdesc.c:	pattrib->crc_err = (u8)((le32_to_cpu(pdesc->rxdw0) >> 14) & 0x1);
+./hal/rtl8192c/rtl8192c_rxdesc.c:	pattrib->icv_err = (u8)((le32_to_cpu(pdesc->rxdw0) >> 15) & 0x1);
+./hal/rtl8192c/rtl8192c_rxdesc.c:	pattrib->qos = (u8)(( le32_to_cpu( pdesc->rxdw0 ) >> 23) & 0x1);// Qos data, wireless lan header length is 26
+./hal/rtl8192c/rtl8192c_rxdesc.c:	pattrib->bdecrypted = (le32_to_cpu(pdesc->rxdw0) & BIT(27))? 0:1;
+./hal/rtl8192c/rtl8192c_rxdesc.c:	pattrib->encrypt = (u8)(( le32_to_cpu( pdesc->rxdw0 ) >> 20) & 0x7);
+./hal/rtl8192c/rtl8192c_rxdesc.c:	pattrib->mfrag = (u8)((le32_to_cpu(pdesc->rxdw1) >> 27) & 0x1);//more fragment bit
+./hal/rtl8192c/rtl8192c_rxdesc.c:	pattrib->frag_num = (u8)((le32_to_cpu(pdesc->rxdw2) >> 12) & 0xf);//fragmentation number
+./hal/rtl8192c/rtl8192c_rxdesc.c:		pattrib->tcpchk_valid = 1; // valid
+./hal/rtl8192c/rtl8192c_rxdesc.c:			pattrib->tcp_chkrpt = 1; // correct
+./hal/rtl8192c/rtl8192c_rxdesc.c:			pattrib->tcp_chkrpt = 0; // incorrect
+./hal/rtl8192c/rtl8192c_rxdesc.c:			pattrib->ip_chkrpt = 1; // correct
+./hal/rtl8192c/rtl8192c_rxdesc.c:			pattrib->ip_chkrpt = 0; // incorrect
+./hal/rtl8192c/rtl8192c_rxdesc.c:		pattrib->tcpchk_valid = 0; // invalid
+./hal/rtl8192c/rtl8192c_rxdesc.c:	pattrib->mcs_rate=(u8)((le32_to_cpu(pdesc->rxdw3))&0x3f);
+./hal/rtl8192c/rtl8192c_rxdesc.c:	pattrib->rxht=(u8)((le32_to_cpu(pdesc->rxdw3) >>6)&0x1);
+./hal/rtl8192c/rtl8192c_rxdesc.c:	pattrib->sgi=(u8)((le32_to_cpu(pdesc->rxdw3) >>8)&0x1);
+./os_dep/linux/recv_linux.c:		int bmcast = IS_MCAST(pattrib->dst);
+./os_dep/linux/recv_linux.c:		if(_rtw_memcmp(pattrib->dst, myid(&padapter->eeprompriv), ETH_ALEN)==_FALSE)
+./os_dep/linux/recv_linux.c:			//DBG_871X("not ap psta=%p, addr=%pM\n", psta, pattrib->dst);
+./os_dep/linux/recv_linux.c:				psta = rtw_get_stainfo(pstapriv, pattrib->dst);
+./os_dep/linux/recv_linux.c:	if ( (pattrib->tcpchk_valid == 1) && (pattrib->tcp_chkrpt == 1) ) {
+./os_dep/linux/recv_linux.c:		//DBG_871X("CHECKSUM_NONE(%d, %d) \n", pattrib->tcpchk_valid, pattrib->tcp_chkrpt);
+./os_dep/linux/ioctl_linux.c:				pattrib->pktlen = 1460;
+./os_dep/linux/ioctl_linux.c:				_rtw_memset(pattrib->dst, 0xFF, ETH_ALEN);
+./os_dep/linux/ioctl_linux.c:	pattrib->ether_type = 0x8723;
+./os_dep/linux/ioctl_linux.c:	_rtw_memcpy(pattrib->src, padapter->eeprompriv.mac_addr, ETH_ALEN);
+./os_dep/linux/ioctl_linux.c:	_rtw_memcpy(pattrib->ta, pattrib->src, ETH_ALEN);
+./os_dep/linux/ioctl_linux.c:	_rtw_memset(pattrib->dst, 0xFF, ETH_ALEN);
+./os_dep/linux/ioctl_linux.c:	_rtw_memcpy(pattrib->ra, pattrib->dst, ETH_ALEN);
+./os_dep/linux/ioctl_linux.c://	pattrib->pctrl = 0;
+./os_dep/linux/ioctl_linux.c://	pattrib->dhcp_pkt = 0;
+./os_dep/linux/ioctl_linux.c://	pattrib->pktlen = 0;
+./os_dep/linux/ioctl_linux.c:	pattrib->ack_policy = 0;
+./os_dep/linux/ioctl_linux.c://	pattrib->pkt_hdrlen = ETH_HLEN;
+./os_dep/linux/ioctl_linux.c:	pattrib->hdrlen = WLAN_HDR_A3_LEN;
+./os_dep/linux/ioctl_linux.c:	pattrib->subtype = WIFI_DATA;
+./os_dep/linux/ioctl_linux.c:	pattrib->priority = 0;
+./os_dep/linux/ioctl_linux.c:	pattrib->qsel = pattrib->priority;
+./os_dep/linux/ioctl_linux.c:	pattrib->nr_frags = 1;
+./os_dep/linux/ioctl_linux.c:	pattrib->encrypt = 0;
+./os_dep/linux/ioctl_linux.c:	pattrib->bswenc = _FALSE;
+./os_dep/linux/ioctl_linux.c:	pattrib->qos_en = _FALSE;
+./os_dep/linux/ioctl_linux.c:	bmcast = IS_MCAST(pattrib->ra);
+./os_dep/linux/ioctl_linux.c:		pattrib->mac_id = 1;
+./os_dep/linux/ioctl_linux.c:		pattrib->psta = rtw_get_bcmc_stainfo(padapter);
+./os_dep/linux/ioctl_linux.c:		pattrib->mac_id = 0;
+./os_dep/linux/ioctl_linux.c:		pattrib->psta = rtw_get_stainfo(&padapter->stapriv, get_bssid(&padapter->mlmepriv));
+./os_dep/linux/ioctl_linux.c:	pattrib->pktlen = size;
+./os_dep/linux/ioctl_linux.c:	pattrib->last_txcmdsz = pattrib->hdrlen + pattrib->pktlen;
+./os_dep/linux/ioctl_linux.c:	pkt_end = pkt_start + pattrib->last_txcmdsz;
+./os_dep/linux/ioctl_linux.c:	SetFrameSubType(&hdr->frame_ctl, pattrib->subtype);
+./os_dep/linux/ioctl_linux.c:	_rtw_memcpy(hdr->addr1, pattrib->dst, ETH_ALEN); // DA
+./os_dep/linux/ioctl_linux.c:	_rtw_memcpy(hdr->addr2, pattrib->src, ETH_ALEN); // SA
+./os_dep/linux/ioctl_linux.c:	ptr = pkt_start + pattrib->hdrlen;
+./os_dep/linux/ioctl_linux.c:	pxmitbuf->len = TXDESC_SIZE + pattrib->last_txcmdsz;
+./os_dep/linux/ioctl_cfg80211.c:		pattrib->retry_ctrl = _FALSE;
+./os_dep/linux/ioctl_cfg80211.c:		pattrib->pktlen = len;	
+./os_dep/linux/ioctl_cfg80211.c:		pattrib->seqnum = pmlmeext->mgnt_seq;
+./os_dep/linux/ioctl_cfg80211.c:		pattrib->last_txcmdsz = pattrib->pktlen;
+./os_dep/linux/ioctl_cfg80211.c:	pattrib->pktlen = sizeof(struct rtw_ieee80211_hdr_3addr);
+./os_dep/linux/ioctl_cfg80211.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(category), &(pattrib->pktlen));
+./os_dep/linux/ioctl_cfg80211.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(action), &(pattrib->pktlen));
+./os_dep/linux/ioctl_cfg80211.c:	pframe = rtw_set_fixed_ie(pframe, 4, (unsigned char *) &(p2poui), &(pattrib->pktlen));
+./os_dep/linux/ioctl_cfg80211.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(oui_subtype), &(pattrib->pktlen));	
+./os_dep/linux/ioctl_cfg80211.c:	pframe = rtw_set_fixed_ie(pframe, 1, &(dialogToken), &(pattrib->pktlen));		
+./os_dep/linux/ioctl_cfg80211.c:	pattrib->pktlen += p2p_ielen;
+./os_dep/linux/ioctl_cfg80211.c:	pframe = rtw_set_ie(pframe, _VENDOR_SPECIFIC_IE_, wpsielen, (unsigned char *) wpsie, &pattrib->pktlen );
+./os_dep/linux/ioctl_cfg80211.c:	pattrib->pktlen += wfdielen;
+./os_dep/linux/ioctl_cfg80211.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./os_dep/linux/ioctl_cfg80211.c:	pattrib->retry_ctrl = _FALSE;
+./os_dep/linux/ioctl_cfg80211.c:	pattrib->pktlen = len;	
+./os_dep/linux/ioctl_cfg80211.c:	pattrib->seqnum = pmlmeext->mgnt_seq;
+./os_dep/linux/ioctl_cfg80211.c:			rtw_append_wfd_ie( padapter, pframe, &pattrib->pktlen );
+./os_dep/linux/ioctl_cfg80211.c:	pattrib->last_txcmdsz = pattrib->pktlen;
+./os_dep/linux/usb_ops_linux.c:	switch(pattrib->priority) 
+./os_dep/linux/xmit_linux.c:	pattrib->hw_tcp_csum = 0;
+./os_dep/linux/xmit_linux.c:                                pattrib->hw_tcp_csum = 1;
