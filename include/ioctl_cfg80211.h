@@ -106,6 +106,10 @@ struct rtw_wdev_priv
 	bool block;
 	bool power_mgmt;
 
+#if LINUX_VERSION_CODE >= KERNEL_VERSION(5,8,0)
+	u32 mgmt_mask;
+#endif
+
 #ifdef CONFIG_CONCURRENT_MODE
 	ATOMIC_T ro_ch_to;
 	ATOMIC_T switch_ch_to;	
