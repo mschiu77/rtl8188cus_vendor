@@ -507,7 +507,9 @@ static int _rtw_regd_init_wiphy(struct rtw_regulatory *reg,
 #endif
 
 	regd = _rtw_regdomain_select(reg);
+	rtnl_unlock();
 	wiphy_apply_custom_regulatory(wiphy, regd);
+	rtnl_lock();
 
 	/* Hard code flags */
 	_rtw_reg_apply_flags(wiphy);
